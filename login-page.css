@@ -78,4 +78,20 @@ html {
     background-color: #3a3a3a;
     cursor: pointer;
     outline: none;
+
+    
   }
+
+  .header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+  
