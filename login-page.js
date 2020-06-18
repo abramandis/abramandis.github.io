@@ -11,8 +11,8 @@ loginButton.addEventListener("click", (e) => {
     if (username === "admin" && password === "Youknowit1234") {
         alert("You have successfully logged in.");
         //location.reload();
-        window.location.replace("/LiefWay.html");
-       // location.href("/LiefWay.html");
+        window.location.replace("/ProcessMenu.html");
+       // location.href("/ProcessMenu.html");
         return true
     } else {
         loginErrorMsg.style.opacity = 1;
