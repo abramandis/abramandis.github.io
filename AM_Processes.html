@@ -1,0 +1,3082 @@
+﻿<!DOCTYPE html>
+<html class="vp">
+<head>
+    <title>Shared Process Map V1.vsdx</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="vp/jquery-3.1.1.min.js"></script>
+    <link href="vp/bootstrap-3.3.7.min.css" rel="stylesheet" />
+    <script src="vp/bootstrap-3.3.7.min.js"></script>
+    
+    
+    <link href="vp/vp-style-1.2.12.min.css" rel="stylesheet" />
+    <script>
+        window.svgpublish = {"shapes":{"shape8000":{"ShapeId":"shape8000","Layers":[],"Text":"","IsContainer":false},"shape8080":{"ShapeId":"shape8080","Layers":[],"Text":"","IsContainer":false},"shape8097":{"ShapeId":"shape8097","Layers":[],"Text":"","IsContainer":false},"shape8125":{"ShapeId":"shape8125","DefaultLink":1,"Links":[{"PageId":75,"SubAddress":"AMx","Description":""}],"Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8128"],"Layers":[1],"Text":"From Sales","IsContainer":false},"shape8126":{"ShapeId":"shape8126","Layers":[],"Text":"Regulatory tickets/testing PRIOR to order","IsContainer":false},"shape8127":{"ShapeId":"shape8127","Layers":[2],"Text":"","IsContainer":false},"shape8128":{"ShapeId":"shape8128","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8130","shape8148"],"ConnectedFrom":["shape8125","shape8249"],"Layers":[1],"Text":"Is there existing ticket","IsContainer":false},"shape8129":{"ShapeId":"shape8129","Layers":[2],"Text":"Yes","IsContainer":false},"shape8130":{"ShapeId":"shape8130","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8132","shape8149"],"ConnectedFrom":["shape8128"],"Layers":[1],"Text":"Is batch contingent on outcome?","IsContainer":false},"shape8131":{"ShapeId":"shape8131","Layers":[2],"Text":"No","IsContainer":false},"shape8132":{"ShapeId":"shape8132","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8134"],"ConnectedFrom":["shape8130","shape8140","shape8146"],"Layers":[1],"Text":"Update and confirm inquiry","IsContainer":false},"shape8133":{"ShapeId":"shape8133","Layers":[2],"Text":"","IsContainer":false},"shape8134":{"ShapeId":"shape8134","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8136","shape8139"],"ConnectedFrom":["shape8132"],"Layers":[1],"Text":"Regulatory approved?","IsContainer":false},"shape8135":{"ShapeId":"shape8135","Layers":[2],"Text":"Yes","IsContainer":false},"shape8136":{"ShapeId":"shape8136","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8137"],"ConnectedFrom":["shape8134"],"Layers":[1],"Text":"Confirm certifications or approvals","IsContainer":false},"shape8137":{"ShapeId":"shape8137","DefaultLink":1,"Links":[{"PageId":75,"SubAddress":"AMx","Description":""}],"Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8136"],"Layers":[1],"Text":"Email Client","IsContainer":false},"shape8138":{"ShapeId":"shape8138","Layers":[2],"Text":"","IsContainer":false},"shape8139":{"ShapeId":"shape8139","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8140","shape8143"],"ConnectedFrom":["shape8134"],"Layers":[1],"Text":"Change request required?","IsContainer":false},"shape8140":{"ShapeId":"shape8140","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8132"],"ConnectedFrom":["shape8139"],"Layers":[1],"Text":"Reach out to client for updates","IsContainer":false},"shape8141":{"ShapeId":"shape8141","Layers":[2],"Text":"No","IsContainer":false},"shape8142":{"ShapeId":"shape8142","Layers":[2],"Text":"No","IsContainer":false},"shape8143":{"ShapeId":"shape8143","ConnectedFrom":["shape8139"],"Layers":[2,1],"Text":"A","IsContainer":false},"shape8144":{"ShapeId":"shape8144","Layers":[2],"Text":"Yes","IsContainer":false},"shape8145":{"ShapeId":"shape8145","Layers":[2],"Text":"","IsContainer":false},"shape8146":{"ShapeId":"shape8146","ConnectedTo":["shape8132"],"Layers":[2,1],"Text":"B","IsContainer":false},"shape8147":{"ShapeId":"shape8147","Layers":[2],"Text":"","IsContainer":false},"shape8148":{"ShapeId":"shape8148","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8128"],"Layers":[1],"Text":"Open Ticket","IsContainer":false},"shape8149":{"ShapeId":"shape8149","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8130"],"Layers":[1],"Text":"Put batch on hold","IsContainer":false},"shape8150":{"ShapeId":"shape8150","Layers":[2],"Text":"Yes","IsContainer":false},"shape8151":{"ShapeId":"shape8151","Layers":[2],"Text":"No","IsContainer":false},"shape8185":{"ShapeId":"shape8185","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"Layers":[1],"Text":"Email from Client","IsContainer":false},"shape8186":{"ShapeId":"shape8186","Layers":[],"Text":"Label PDF review/Cust. tickets","IsContainer":false},"shape8187":{"ShapeId":"shape8187","Layers":[2],"Text":"","IsContainer":false},"shape8188":{"ShapeId":"shape8188","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8190","shape8196"],"Layers":[1],"Text":"Open Customer/Label Ticket","IsContainer":false},"shape8189":{"ShapeId":"shape8189","Layers":[2],"Text":"","IsContainer":false},"shape8190":{"ShapeId":"shape8190","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8192","shape8193"],"ConnectedFrom":["shape8188"],"Layers":[1],"Text":"QC approved for SFP?","IsContainer":false},"shape8191":{"ShapeId":"shape8191","Layers":[2],"Text":"No","IsContainer":false},"shape8192":{"ShapeId":"shape8192","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8201"],"ConnectedFrom":["shape8190","shape8196"],"Layers":[1],"Text":"Email client for revision","IsContainer":false},"shape8193":{"ShapeId":"shape8193","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8194"],"ConnectedFrom":["shape8196","shape8190"],"Layers":[1],"Text":"Inform client approved to print","IsContainer":false},"shape8194":{"ShapeId":"shape8194","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8193"],"Layers":[1],"Text":"Inform client approved to print","IsContainer":false},"shape8195":{"ShapeId":"shape8195","Layers":[2],"Text":"","IsContainer":false},"shape8196":{"ShapeId":"shape8196","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8192","shape8193"],"ConnectedFrom":["shape8188"],"Layers":[1],"Text":"QC approved for SFP?","IsContainer":false},"shape8197":{"ShapeId":"shape8197","Layers":[2],"Text":"","IsContainer":false},"shape8198":{"ShapeId":"shape8198","Layers":[2],"Text":"No","IsContainer":false},"shape8199":{"ShapeId":"shape8199","Layers":[2],"Text":"Yes","IsContainer":false},"shape8200":{"ShapeId":"shape8200","Layers":[2],"Text":"Yes","IsContainer":false},"shape8201":{"ShapeId":"shape8201","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8192"],"Layers":[1],"Text":"Upload revision from client to ticket","IsContainer":false},"shape8202":{"ShapeId":"shape8202","Layers":[2],"Text":"","IsContainer":false},"shape8203":{"ShapeId":"shape8203","Layers":[],"Text":"","IsContainer":false},"shape8230":{"ShapeId":"shape8230","Layers":[],"Text":"Customer Complaint Process","IsContainer":false},"shape8231":{"ShapeId":"shape8231","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8233"],"Layers":[1],"Text":"From Client","IsContainer":false},"shape8232":{"ShapeId":"shape8232","Layers":[2],"Text":"","IsContainer":false},"shape8233":{"ShapeId":"shape8233","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8235","shape8244"],"ConnectedFrom":["shape8231"],"Layers":[1],"Text":"Is Issue causing illness?","IsContainer":false},"shape8234":{"ShapeId":"shape8234","Layers":[2],"Text":"No","IsContainer":false},"shape8235":{"ShapeId":"shape8235","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8237","shape8244"],"ConnectedFrom":["shape8233"],"Layers":[1],"Text":"Is client threatening Legal Action?","IsContainer":false},"shape8236":{"ShapeId":"shape8236","Layers":[2],"Text":"No","IsContainer":false},"shape8237":{"ShapeId":"shape8237","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8239"],"ConnectedFrom":["shape8235"],"Layers":[1],"Text":"Open Complaint ticket","IsContainer":false},"shape8238":{"ShapeId":"shape8238","Layers":[2],"Text":"","IsContainer":false},"shape8239":{"ShapeId":"shape8239","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8241"],"ConnectedFrom":["shape8237"],"Layers":[1],"Text":"Generate Complaint Acknowledgement Form and send to client","IsContainer":false},"shape8240":{"ShapeId":"shape8240","Layers":[2],"Text":"","IsContainer":false},"shape8241":{"ShapeId":"shape8241","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8242"],"ConnectedFrom":["shape8239"],"Layers":[1],"Text":"FROM R&D/PD/QC","IsContainer":false},"shape8242":{"ShapeId":"shape8242","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8241"],"Layers":[1],"Text":"Send results to client as needed","IsContainer":false},"shape8243":{"ShapeId":"shape8243","Layers":[2],"Text":"","IsContainer":false},"shape8244":{"ShapeId":"shape8244","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8247"],"ConnectedFrom":["shape8235","shape8233"],"Layers":[1],"Text":"Inform Executive Team Immediately","IsContainer":false},"shape8245":{"ShapeId":"shape8245","Layers":[2],"Text":"Yes","IsContainer":false},"shape8246":{"ShapeId":"shape8246","Layers":[2],"Text":"Yes","IsContainer":false},"shape8247":{"ShapeId":"shape8247","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8244"],"Layers":[1],"Text":"Open Complaint ticket","IsContainer":false},"shape8248":{"ShapeId":"shape8248","Layers":[2],"Text":"","IsContainer":false},"shape8249":{"ShapeId":"shape8249","DefaultLink":1,"Links":[{"PageId":75,"SubAddress":"AMx","Description":""}],"Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8128"],"Layers":[1],"Text":"From QC","IsContainer":false},"shape8250":{"ShapeId":"shape8250","Layers":[2],"Text":"","IsContainer":false},"shape8251":{"ShapeId":"shape8251","DefaultLink":1,"Links":[{"PageId":75,"SubAddress":"AMx / Process.2316","Description":"Off-page Re&ference","ShapeId":"shape8363"}],"ConnectedTo":["shape8256","shape8254","shape8253"],"Layers":[2,1],"Text":"A","IsContainer":false},"shape8252":{"ShapeId":"shape8252","Layers":[],"Text":"Batch confirmation and review (After Batch Review Batch/WorkOrder)","IsContainer":false},"shape8253":{"ShapeId":"shape8253","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8259"],"ConnectedFrom":["shape8251"],"Layers":[1],"Text":"Does Formula Code match?","IsContainer":false},"shape8254":{"ShapeId":"shape8254","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8259"],"ConnectedFrom":["shape8251"],"Layers":[1],"Text":"Does Packaging Match?","IsContainer":false},"shape8255":{"ShapeId":"shape8255","Layers":[2],"Text":"","IsContainer":false},"shape8256":{"ShapeId":"shape8256","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8259"],"ConnectedFrom":["shape8251"],"Layers":[1],"Text":"Does serving CT Match","IsContainer":false},"shape8257":{"ShapeId":"shape8257","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8259"],"Layers":[1],"Text":"Does qty match PO?","IsContainer":false},"shape8258":{"ShapeId":"shape8258","Layers":[2],"Text":"","IsContainer":false},"shape8259":{"ShapeId":"shape8259","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8266","shape8268"],"ConnectedFrom":["shape8257","shape8253","shape8254","shape8256"],"Layers":[1],"Text":"Are notes on WO Correct?","IsContainer":false},"shape8260":{"ShapeId":"shape8260","Layers":[2],"Text":"","IsContainer":false},"shape8261":{"ShapeId":"shape8261","Layers":[2],"Text":"","IsContainer":false},"shape8262":{"ShapeId":"shape8262","Layers":[2],"Text":"","IsContainer":false},"shape8263":{"ShapeId":"shape8263","Layers":[2],"Text":"","IsContainer":false},"shape8264":{"ShapeId":"shape8264","Layers":[2],"Text":"","IsContainer":false},"shape8265":{"ShapeId":"shape8265","Layers":[2],"Text":"Yes","IsContainer":false},"shape8266":{"ShapeId":"shape8266","DefaultLink":1,"Links":[{"PageId":75,"SubAddress":"AMx / Process.2316","Description":"","ShapeId":"shape8363"}],"ConnectedFrom":["shape8259"],"Layers":[2,1],"Text":"B","IsContainer":false},"shape8267":{"ShapeId":"shape8267","Layers":[2],"Text":"Yes","IsContainer":false},"shape8268":{"ShapeId":"shape8268","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8259"],"Layers":[1],"Text":"Ping Batching","IsContainer":false},"shape8269":{"ShapeId":"shape8269","Layers":[2],"Text":"No","IsContainer":false},"shape8270":{"ShapeId":"shape8270","DefaultLink":1,"Links":[{"PageId":75,"SubAddress":"AMx / am2243x","Description":"","ShapeId":"shape8372"}],"ConnectedTo":["shape8273"],"Layers":[2,1],"Text":"B","IsContainer":false},"shape8271":{"ShapeId":"shape8271","Layers":[],"Text":"R & D Tickets","IsContainer":false},"shape8272":{"ShapeId":"shape8272","Layers":[2],"Text":"","IsContainer":false},"shape8273":{"ShapeId":"shape8273","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8275","shape8287","shape8289"],"ConnectedFrom":["shape8270"],"Layers":[1],"Text":"Powder or Capsule or Tablet?","IsContainer":false},"shape8274":{"ShapeId":"shape8274","Layers":[2],"Text":"Capsule","IsContainer":false},"shape8275":{"ShapeId":"shape8275","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8277","shape8284"],"ConnectedFrom":["shape8273"],"Layers":[1],"Text":"Has a fill wt test been completed?","IsContainer":false},"shape8276":{"ShapeId":"shape8276","Layers":[2],"Text":"Yes","IsContainer":false},"shape8277":{"ShapeId":"shape8277","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8279","shape8282"],"ConnectedFrom":["shape8275","shape8287","shape8289"],"Layers":[1],"Text":"Have SFP been completed?","IsContainer":false},"shape8278":{"ShapeId":"shape8278","Layers":[2],"Text":"Yes","IsContainer":false},"shape8279":{"ShapeId":"shape8279","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8281"],"ConnectedFrom":["shape8277"],"Layers":[1],"Text":"Review for pricing and TBD Codes","IsContainer":false},"shape8280":{"ShapeId":"shape8280","Layers":[2],"Text":"","IsContainer":false},"shape8281":{"ShapeId":"shape8281","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8279"],"Layers":[1],"Text":"Generate Client Docs","IsContainer":false},"shape8282":{"ShapeId":"shape8282","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8277"],"Layers":[1],"Text":"Open Ticket","IsContainer":false},"shape8283":{"ShapeId":"shape8283","Layers":[2],"Text":"Yes","IsContainer":false},"shape8284":{"ShapeId":"shape8284","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8275"],"Layers":[1],"Text":"Open RD:FILL WEIGHT Ticket","IsContainer":false},"shape8285":{"ShapeId":"shape8285","Layers":[2],"Text":"No","IsContainer":false},"shape8286":{"ShapeId":"shape8286","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8287"],"Layers":[1],"Text":"Open RD: Scoop Test Ticket","IsContainer":false},"shape8287":{"ShapeId":"shape8287","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8286","shape8277"],"ConnectedFrom":["shape8273"],"Layers":[1],"Text":"Has scoop test been complete?","IsContainer":false},"shape8288":{"ShapeId":"shape8288","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8289"],"Layers":[1],"Text":"Open RD:Pilot Ticket","IsContainer":false},"shape8289":{"ShapeId":"shape8289","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8288","shape8277"],"ConnectedFrom":["shape8273"],"Layers":[1],"Text":"Has a pilot ticket been completed?","IsContainer":false},"shape8290":{"ShapeId":"shape8290","Layers":[2],"Text":"No","IsContainer":false},"shape8291":{"ShapeId":"shape8291","Layers":[2],"Text":"No","IsContainer":false},"shape8292":{"ShapeId":"shape8292","Layers":[2],"Text":"Powder","IsContainer":false},"shape8293":{"ShapeId":"shape8293","Layers":[2],"Text":"Tablet","IsContainer":false},"shape8294":{"ShapeId":"shape8294","Layers":[2],"Text":"Yes","IsContainer":false},"shape8295":{"ShapeId":"shape8295","Layers":[2],"Text":"Yes","IsContainer":false},"shape8296":{"ShapeId":"shape8296","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"Layers":[1],"Text":"From Batching","IsContainer":false},"shape8297":{"ShapeId":"shape8297","Layers":[],"Text":"Batch Monitoring","IsContainer":false},"shape8298":{"ShapeId":"shape8298","Layers":[2],"Text":"","IsContainer":false},"shape8299":{"ShapeId":"shape8299","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8301","shape8346"],"Layers":[1],"Text":"Confirm batch including qty, FC, FPC, label etc.","IsContainer":false},"shape8300":{"ShapeId":"shape8300","Layers":[2],"Text":"No Issues","IsContainer":false},"shape8301":{"ShapeId":"shape8301","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8303","shape8315"],"ConnectedFrom":["shape8299"],"Layers":[1],"Text":"Monitor RMs and PS","IsContainer":false},"shape8302":{"ShapeId":"shape8302","Layers":[2],"Text":"","IsContainer":false},"shape8303":{"ShapeId":"shape8303","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8305","shape8320"],"ConnectedFrom":["shape8301"],"Layers":[1],"Text":"RMs or PS Late","IsContainer":false},"shape8304":{"ShapeId":"shape8304","Layers":[2],"Text":"No","IsContainer":false},"shape8305":{"ShapeId":"shape8305","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8307","shape8324","shape8325"],"ConnectedFrom":["shape8303","shape8315"],"Layers":[1],"Text":"Batch behind schedule","IsContainer":false},"shape8306":{"ShapeId":"shape8306","Layers":[2],"Text":"No","IsContainer":false},"shape8307":{"ShapeId":"shape8307","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8309"],"ConnectedFrom":["shape8305"],"Layers":[1],"Text":"Batch Complete","IsContainer":false},"shape8308":{"ShapeId":"shape8308","Layers":[2],"Text":"","IsContainer":false},"shape8309":{"ShapeId":"shape8309","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8311"],"ConnectedFrom":["shape8307"],"Layers":[1],"Text":"Packing slip marked “Released”","IsContainer":false},"shape8310":{"ShapeId":"shape8310","Layers":[2],"Text":"","IsContainer":false},"shape8311":{"ShapeId":"shape8311","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8312","shape8327"],"ConnectedFrom":["shape8309"],"Layers":[1],"Text":"Shipping details known","IsContainer":false},"shape8312":{"ShapeId":"shape8312","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8311"],"Layers":[1],"Text":"Order Finished!","IsContainer":false},"shape8313":{"ShapeId":"shape8313","Layers":[2],"Text":"Issues","IsContainer":false},"shape8314":{"ShapeId":"shape8314","Layers":[2],"Text":"","IsContainer":false},"shape8315":{"ShapeId":"shape8315","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8305","shape8318"],"ConnectedFrom":["shape8301"],"Layers":[1],"Text":"CSMs Late","IsContainer":false},"shape8316":{"ShapeId":"shape8316","Layers":[2],"Text":"","IsContainer":false},"shape8317":{"ShapeId":"shape8317","Layers":[2],"Text":"No","IsContainer":false},"shape8318":{"ShapeId":"shape8318","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8315"],"Layers":[1],"Text":"Email Client","IsContainer":false},"shape8319":{"ShapeId":"shape8319","Layers":[2],"Text":"Yes","IsContainer":false},"shape8320":{"ShapeId":"shape8320","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8321"],"ConnectedFrom":["shape8303"],"Layers":[1],"Text":"Review Picking/RM ETA","IsContainer":false},"shape8321":{"ShapeId":"shape8321","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8320"],"Layers":[1],"Text":"Ping Purchasing","IsContainer":false},"shape8322":{"ShapeId":"shape8322","Layers":[2],"Text":"Yes","IsContainer":false},"shape8323":{"ShapeId":"shape8323","Layers":[2],"Text":"","IsContainer":false},"shape8324":{"ShapeId":"shape8324","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8305"],"Layers":[1],"Text":"Ping Operations","IsContainer":false},"shape8325":{"ShapeId":"shape8325","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8305"],"Layers":[1],"Text":"Alert Sales","IsContainer":false},"shape8326":{"ShapeId":"shape8326","Layers":[2],"Text":"Yes","IsContainer":false},"shape8327":{"ShapeId":"shape8327","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8311"],"Layers":[1],"Text":"Email Client","IsContainer":false},"shape8328":{"ShapeId":"shape8328","Layers":[2],"Text":"","IsContainer":false},"shape8329":{"ShapeId":"shape8329","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"Layers":[1],"Text":"2 Weeks to due date","IsContainer":false},"shape8330":{"ShapeId":"shape8330","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"Layers":[1],"Text":"Target Due Date","IsContainer":false},"shape8331":{"ShapeId":"shape8331","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"Layers":[1],"Text":"3 weeks to due date","IsContainer":false},"shape8332":{"ShapeId":"shape8332","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"Layers":[1],"Text":"4 weeks to due date","IsContainer":false},"shape8333":{"ShapeId":"shape8333","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"Layers":[1],"Text":"6 weeks to due date","IsContainer":false},"shape8334":{"ShapeId":"shape8334","Layers":[2,1],"Text":"E1","IsContainer":false},"shape8335":{"ShapeId":"shape8335","Layers":[2,1],"Text":"C","IsContainer":false},"shape8336":{"ShapeId":"shape8336","Layers":[2,1],"Text":"D","IsContainer":false},"shape8337":{"ShapeId":"shape8337","Layers":[2,1],"Text":"E2","IsContainer":false},"shape8338":{"ShapeId":"shape8338","Layers":[],"Text":"A – Batch confirmation process and review\u2028B – R&D tickets\u2028C – Label PDF review/Customer tickets\u2028D – CSM/Label process\u2028E1 – Regulatory tickets/testing PRIOR to order\u2028E2 – Regulatory tickets/testing at FINISHED GOODS level\u2028F- Label Correction Notice Process\u2028G- Change request process\u2028H – Cancellation process","IsContainer":false},"shape8339":{"ShapeId":"shape8339","Layers":[2,1],"Text":"G","IsContainer":false},"shape8340":{"ShapeId":"shape8340","Layers":[2,1],"Text":"H","IsContainer":false},"shape8341":{"ShapeId":"shape8341","Layers":[2],"Text":"","IsContainer":false},"shape8342":{"ShapeId":"shape8342","Layers":[2],"Text":"","IsContainer":false},"shape8343":{"ShapeId":"shape8343","Layers":[2],"Text":"","IsContainer":false},"shape8344":{"ShapeId":"shape8344","Layers":[2],"Text":"","IsContainer":false},"shape8345":{"ShapeId":"shape8345","Layers":[2],"Text":"Yes","IsContainer":false},"shape8346":{"ShapeId":"shape8346","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8299"],"Layers":[1],"Text":"AM A1","IsContainer":false},"shape8347":{"ShapeId":"shape8347","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8350"],"Layers":[1],"Text":"PO Submitted \nWork order/email","IsContainer":false},"shape8348":{"ShapeId":"shape8348","Layers":[],"Text":"Order Processing and Review","IsContainer":false},"shape8349":{"ShapeId":"shape8349","Layers":[2],"Text":"","IsContainer":false},"shape8350":{"ShapeId":"shape8350","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8352","shape8358"],"ConnectedFrom":["shape8347"],"Layers":[1],"Text":"Is Client New?","IsContainer":false},"shape8351":{"ShapeId":"shape8351","Layers":[2],"Text":"No","IsContainer":false},"shape8352":{"ShapeId":"shape8352","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8354","shape8361"],"ConnectedFrom":["shape8350","shape8358"],"Layers":[1],"Text":"Finance Approved?","IsContainer":false},"shape8353":{"ShapeId":"shape8353","Layers":[2],"Text":"Yes","IsContainer":false},"shape8354":{"ShapeId":"shape8354","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8367","shape8355"],"ConnectedFrom":["shape8352"],"Layers":[1],"Text":"Is product new?","IsContainer":false},"shape8355":{"ShapeId":"shape8355","DefaultLink":1,"Links":[{"PageId":-1,"Address":"http://www.ign.com/","Description":""}],"Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8371"],"ConnectedFrom":["shape8354"],"Layers":[1],"Text":"Generate RE-ORDER DOCS","IsContainer":false},"shape8356":{"ShapeId":"shape8356","DefaultLink":1,"Links":[{"PageId":-1,"Address":"blue.rtf","Description":""}],"Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8378"],"ConnectedFrom":["shape8371"],"Layers":[1],"Text":"Review / Approve PO","IsContainer":false},"shape8357":{"ShapeId":"shape8357","Layers":[2],"Text":"","IsContainer":false},"shape8358":{"ShapeId":"shape8358","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8359","shape8352"],"ConnectedFrom":["shape8350"],"Layers":[1],"Text":"Security deposit/on board?","IsContainer":false},"shape8359":{"ShapeId":"shape8359","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8358"],"Layers":[1],"Text":"Hold for Approval","IsContainer":false},"shape8360":{"ShapeId":"shape8360","DefaultLink":1,"Links":[{"PageId":75,"SubAddress":"AMx / Off-page reference.3147","Description":"","ShapeId":"shape8268"}],"Layers":[2,1],"Text":"AM.A1.B","IsContainer":false},"shape8361":{"ShapeId":"shape8361","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8352"],"Layers":[1],"Text":"Hold for Approval","IsContainer":false},"shape8362":{"ShapeId":"shape8362","Layers":[2],"Text":"No","IsContainer":false},"shape8363":{"ShapeId":"shape8363","Layers":[2],"Text":"Yes","IsContainer":false},"shape8364":{"ShapeId":"shape8364","Layers":[2],"Text":"No","IsContainer":false},"shape8365":{"ShapeId":"shape8365","Layers":[2],"Text":"Yes","IsContainer":false},"shape8366":{"ShapeId":"shape8366","Layers":[2],"Text":"Yes","IsContainer":false},"shape8367":{"ShapeId":"shape8367","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8370","shape8368"],"ConnectedFrom":["shape8354"],"Layers":[1],"Text":"R&D Tickets needed? ","IsContainer":false},"shape8368":{"ShapeId":"shape8368","DefaultLink":1,"Links":[{"PageId":75,"SubAddress":"AMx / On-page reference.3120","Description":"","ShapeId":"shape8272"}],"Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8370"],"ConnectedFrom":["shape8367"],"Layers":[1,2],"Text":"AM.B1","IsContainer":false},"shape8369":{"ShapeId":"shape8369","Layers":[2],"Text":"No","IsContainer":false},"shape8370":{"ShapeId":"shape8370","DefaultLink":1,"Links":[{"PageId":-1,"Address":"Control%20Process%20-%20Change%20Requests%201.0","Description":""}],"Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8371"],"ConnectedFrom":["shape8367","shape8368"],"Layers":[1],"Text":"Generate NEW CLIENT DOCS","IsContainer":false},"shape8371":{"ShapeId":"shape8371","DefaultLink":1,"Links":[{"PageId":-1,"Address":"https://lief.teridot.com/forms/costing_checklists2/new","Description":""}],"Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8356","shape8374"],"ConnectedFrom":["shape8370","shape8355"],"Layers":[1],"Text":"Did Client Sign Documents?","IsContainer":false},"shape8372":{"ShapeId":"shape8372","Layers":[2],"Text":"","IsContainer":false},"shape8373":{"ShapeId":"shape8373","Layers":[2],"Text":"Yes","IsContainer":false},"shape8374":{"ShapeId":"shape8374","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8371"],"Layers":[1],"Text":"Hold for Approval","IsContainer":false},"shape8375":{"ShapeId":"shape8375","Layers":[2],"Text":"Yes","IsContainer":false},"shape8376":{"ShapeId":"shape8376","Layers":[2],"Text":"","IsContainer":false},"shape8377":{"ShapeId":"shape8377","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"Layers":[1],"Text":"CLIENT NEW ORDER DOCS\n\n1. FPS (Finished Product Spec)\n2. SFP (service facts panel)\n3. Expiration Date/Stability Waiver\n4. Customer Supplied Materials Form","IsContainer":false},"shape8378":{"ShapeId":"shape8378","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8379"],"ConnectedFrom":["shape8356"],"Layers":[1],"Text":"Review /Approve PO","IsContainer":false},"shape8379":{"ShapeId":"shape8379","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8402"],"ConnectedFrom":["shape8378"],"Layers":[1],"Text":"Review /Approve PO","IsContainer":false},"shape8380":{"ShapeId":"shape8380","Layers":[2],"Text":"","IsContainer":false},"shape8381":{"ShapeId":"shape8381","Layers":[2],"Text":"No","IsContainer":false},"shape8382":{"ShapeId":"shape8382","Layers":[2],"Text":"","IsContainer":false},"shape8383":{"ShapeId":"shape8383","Layers":[2],"Text":"","IsContainer":false},"shape8384":{"ShapeId":"shape8384","Layers":[],"Text":"Onboarding Process","IsContainer":false},"shape8385":{"ShapeId":"shape8385","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8387","shape8392"],"ConnectedFrom":["shape8398"],"Layers":[1],"Text":"Is RDSSF signed?","IsContainer":false},"shape8386":{"ShapeId":"shape8386","Layers":[2],"Text":"Yes","IsContainer":false},"shape8387":{"ShapeId":"shape8387","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8389"],"ConnectedFrom":["shape8385","shape8392"],"Layers":[1],"Text":"Email template in Docusign","IsContainer":false},"shape8388":{"ShapeId":"shape8388","Layers":[2],"Text":"","IsContainer":false},"shape8389":{"ShapeId":"shape8389","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8391","shape8394"],"ConnectedFrom":["shape8387"],"Layers":[1],"Text":"Has client signed all documents?","IsContainer":false},"shape8390":{"ShapeId":"shape8390","Layers":[2],"Text":"Yes","IsContainer":false},"shape8391":{"ShapeId":"shape8391","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8389"],"Layers":[1],"Text":"Pass info to Finance","IsContainer":false},"shape8392":{"ShapeId":"shape8392","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8394","shape8387"],"ConnectedFrom":["shape8385"],"Layers":[1],"Text":"Has client committed to purchase?","IsContainer":false},"shape8393":{"ShapeId":"shape8393","Layers":[2],"Text":"No","IsContainer":false},"shape8394":{"ShapeId":"shape8394","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8392","shape8389"],"Layers":[1],"Text":"Confirm need w/ Sales","IsContainer":false},"shape8395":{"ShapeId":"shape8395","Layers":[2],"Text":"No","IsContainer":false},"shape8396":{"ShapeId":"shape8396","Layers":[2],"Text":"Yes","IsContainer":false},"shape8397":{"ShapeId":"shape8397","Layers":[2],"Text":"No","IsContainer":false},"shape8398":{"ShapeId":"shape8398","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8385"],"ConnectedFrom":["shape8399"],"Layers":[1],"Text":"Legal: Handle Client Provided Contracts (Manufacutirng/Quality Agreements)","IsContainer":false},"shape8399":{"ShapeId":"shape8399","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8398"],"Layers":[1],"Text":"On Board Client","IsContainer":false},"shape8400":{"ShapeId":"shape8400","Layers":[2],"Text":"","IsContainer":false},"shape8401":{"ShapeId":"shape8401","Layers":[2],"Text":"","IsContainer":false},"shape8402":{"ShapeId":"shape8402","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8404","shape8379"],"Layers":[1],"Text":"Create PO Goal / Sales Order (w/notes)","IsContainer":false},"shape8403":{"ShapeId":"shape8403","Layers":[2],"Text":"","IsContainer":false},"shape8404":{"ShapeId":"shape8404","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8402"],"Layers":[1],"Text":"Update or corrections","IsContainer":false},"shape8405":{"ShapeId":"shape8405","Layers":[2],"Text":"","IsContainer":false},"shape8406":{"ShapeId":"shape8406","Layers":[2],"Text":"","IsContainer":false},"shape8407":{"ShapeId":"shape8407","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"Layers":[1],"Text":"","IsContainer":false},"shape8408":{"ShapeId":"shape8408","Layers":[],"Text":"Accounts Management","IsContainer":false},"shape1":{"ShapeId":"shape1","Layers":[],"Text":"","IsContainer":false},"shape8409":{"ShapeId":"shape8409","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8412"],"Layers":[1],"Text":"From Receiving","IsContainer":false},"shape8410":{"ShapeId":"shape8410","Layers":[],"Text":"CSM/Label Process","IsContainer":false},"shape8411":{"ShapeId":"shape8411","Layers":[2],"Text":"","IsContainer":false},"shape8412":{"ShapeId":"shape8412","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8414","shape8421"],"ConnectedFrom":["shape8409"],"Layers":[1],"Text":"Is CSM Code Correct?","IsContainer":false},"shape8413":{"ShapeId":"shape8413","Layers":[2],"Text":"Yes","IsContainer":false},"shape8414":{"ShapeId":"shape8414","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8416"],"ConnectedFrom":["shape8412","shape8443"],"Layers":[1],"Text":"Confirm receiver and qty","IsContainer":false},"shape8415":{"ShapeId":"shape8415","Layers":[2],"Text":"","IsContainer":false},"shape8416":{"ShapeId":"shape8416","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8418","shape8426"],"ConnectedFrom":["shape8414","shape8425"],"Layers":[1],"Text":"Does CSM fit bottle on WO?","IsContainer":false},"shape8417":{"ShapeId":"shape8417","Layers":[2],"Text":"Yes","IsContainer":false},"shape8418":{"ShapeId":"shape8418","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8420"],"ConnectedFrom":["shape8416"],"Layers":[1],"Text":"Mark Received on batch","IsContainer":false},"shape8419":{"ShapeId":"shape8419","Layers":[2],"Text":"","IsContainer":false},"shape8420":{"ShapeId":"shape8420","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8418"],"Layers":[1],"Text":"File CSM and receiver in archive","IsContainer":false},"shape8421":{"ShapeId":"shape8421","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8441"],"ConnectedFrom":["shape8412","shape8423"],"Layers":[1],"Text":"Generate New CSM Code","IsContainer":false},"shape8422":{"ShapeId":"shape8422","Layers":[2],"Text":"No","IsContainer":false},"shape8423":{"ShapeId":"shape8423","ConnectedTo":["shape8421"],"Layers":[2,1],"Text":"D1","IsContainer":false},"shape8424":{"ShapeId":"shape8424","Layers":[2],"Text":"","IsContainer":false},"shape8425":{"ShapeId":"shape8425","ConnectedTo":["shape8416"],"Layers":[2,1],"Text":"D2","IsContainer":false},"shape8426":{"ShapeId":"shape8426","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8427"],"ConnectedFrom":["shape8416"],"Layers":[1],"Text":"Confirm bottle size is correct","IsContainer":false},"shape8427":{"ShapeId":"shape8427","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8428","shape8436"],"ConnectedFrom":["shape8426"],"Layers":[1],"Text":"Do we need to change?","IsContainer":false},"shape8428":{"ShapeId":"shape8428","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8429","shape8434"],"ConnectedFrom":["shape8427"],"Layers":[1],"Text":"What changes?","IsContainer":false},"shape8429":{"ShapeId":"shape8429","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8435"],"ConnectedFrom":["shape8428"],"Layers":[1],"Text":"Generate C.R. – PROCESS F","IsContainer":false},"shape8430":{"ShapeId":"shape8430","Layers":[2],"Text":"No","IsContainer":false},"shape8431":{"ShapeId":"shape8431","Layers":[2],"Text":"","IsContainer":false},"shape8432":{"ShapeId":"shape8432","Layers":[2],"Text":"","IsContainer":false},"shape8433":{"ShapeId":"shape8433","Layers":[2],"Text":"","IsContainer":false},"shape8434":{"ShapeId":"shape8434","ConnectedFrom":["shape8428"],"Layers":[2,1],"Text":"D1","IsContainer":false},"shape8435":{"ShapeId":"shape8435","ConnectedFrom":["shape8429"],"Layers":[2,1],"Text":"D2","IsContainer":false},"shape8436":{"ShapeId":"shape8436","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8427"],"Layers":[1],"Text":"Client approved to run as-is","IsContainer":false},"shape8437":{"ShapeId":"shape8437","Layers":[2],"Text":"","IsContainer":false},"shape8438":{"ShapeId":"shape8438","Layers":[2],"Text":"","IsContainer":false},"shape8439":{"ShapeId":"shape8439","Layers":[2],"Text":"","IsContainer":false},"shape8440":{"ShapeId":"shape8440","Layers":[2],"Text":"","IsContainer":false},"shape8441":{"ShapeId":"shape8441","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8442"],"ConnectedFrom":["shape8421"],"Layers":[1],"Text":"Quarantine Previous Label Version","IsContainer":false},"shape8442":{"ShapeId":"shape8442","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8443"],"ConnectedFrom":["shape8441"],"Layers":[1],"Text":"Generate Label Disposition Notice","IsContainer":false},"shape8443":{"ShapeId":"shape8443","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8414"],"ConnectedFrom":["shape8442"],"Layers":[1],"Text":"Confirm Label Disposition","IsContainer":false},"shape8444":{"ShapeId":"shape8444","Layers":[2],"Text":"","IsContainer":false},"shape8445":{"ShapeId":"shape8445","Layers":[2],"Text":"","IsContainer":false},"shape8446":{"ShapeId":"shape8446","Layers":[2],"Text":"","IsContainer":false},"shape8447":{"ShapeId":"shape8447","Layers":[2],"Text":"","IsContainer":false},"shape8448":{"ShapeId":"shape8448","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8450"],"Layers":[1],"Text":"From Client","IsContainer":false},"shape8449":{"ShapeId":"shape8449","Layers":[],"Text":"Change request process","IsContainer":false},"shape8450":{"ShapeId":"shape8450","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8452","shape8473"],"ConnectedFrom":["shape8467","shape8468","shape8469","shape8466","shape8448"],"Layers":[1],"Text":"Is this a CSM issue only?","IsContainer":false},"shape8451":{"ShapeId":"shape8451","Layers":[2],"Text":"No","IsContainer":false},"shape8452":{"ShapeId":"shape8452","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8454"],"ConnectedFrom":["shape8450"],"Layers":[1],"Text":"Put Batch on Hold","IsContainer":false},"shape8453":{"ShapeId":"shape8453","Layers":[2],"Text":"","IsContainer":false},"shape8454":{"ShapeId":"shape8454","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8456"],"ConnectedFrom":["shape8452"],"Layers":[1],"Text":"Open Requote ticket","IsContainer":false},"shape8455":{"ShapeId":"shape8455","Layers":[2],"Text":"","IsContainer":false},"shape8456":{"ShapeId":"shape8456","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8458"],"ConnectedFrom":["shape8454"],"Layers":[1],"Text":"From R&D/PD","IsContainer":false},"shape8457":{"ShapeId":"shape8457","Layers":[2],"Text":"","IsContainer":false},"shape8458":{"ShapeId":"shape8458","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8481"],"ConnectedFrom":["shape8456"],"Layers":[1],"Text":"Update Facts Panel","IsContainer":false},"shape8459":{"ShapeId":"shape8459","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8461"],"ConnectedFrom":["shape8481"],"Layers":[1],"Text":"Generate new docs for client to sign","IsContainer":false},"shape8460":{"ShapeId":"shape8460","Layers":[2],"Text":"","IsContainer":false},"shape8461":{"ShapeId":"shape8461","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8463","shape8475"],"ConnectedFrom":["shape8459"],"Layers":[1],"Text":"Did Client sign rev. docs??","IsContainer":false},"shape8462":{"ShapeId":"shape8462","Layers":[2],"Text":"Yes","IsContainer":false},"shape8463":{"ShapeId":"shape8463","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8465"],"ConnectedFrom":["shape8461"],"Layers":[1],"Text":"Open Change Request","IsContainer":false},"shape8464":{"ShapeId":"shape8464","Layers":[2],"Text":"","IsContainer":false},"shape8465":{"ShapeId":"shape8465","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8463"],"Layers":[1],"Text":"Remove Batch Hold","IsContainer":false},"shape8466":{"ShapeId":"shape8466","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8450"],"Layers":[1],"Text":"From Regulatory","IsContainer":false},"shape8467":{"ShapeId":"shape8467","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8450"],"Layers":[1],"Text":"From Sales","IsContainer":false},"shape8468":{"ShapeId":"shape8468","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8450"],"Layers":[1],"Text":"From R&D/PD","IsContainer":false},"shape8469":{"ShapeId":"shape8469","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8450"],"Layers":[1],"Text":"From Purchasing","IsContainer":false},"shape8470":{"ShapeId":"shape8470","Layers":[2],"Text":"","IsContainer":false},"shape8471":{"ShapeId":"shape8471","Layers":[2],"Text":"","IsContainer":false},"shape8472":{"ShapeId":"shape8472","Layers":[2],"Text":"","IsContainer":false},"shape8473":{"ShapeId":"shape8473","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8450"],"Layers":[1],"Text":"CSM/Label Process","IsContainer":false},"shape8474":{"ShapeId":"shape8474","Layers":[2],"Text":"Yes","IsContainer":false},"shape8475":{"ShapeId":"shape8475","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedFrom":["shape8461"],"Layers":[1],"Text":"Hold. Follow up every 2 days","IsContainer":false},"shape8476":{"ShapeId":"shape8476","Layers":[2],"Text":"No","IsContainer":false},"shape8477":{"ShapeId":"shape8477","Layers":[],"Text":"**The Change Control Process can happen at any point during Order Procss or Batch Monitoring Process","IsContainer":false},"shape8478":{"ShapeId":"shape8478","Layers":[2],"Text":"","IsContainer":false},"shape8479":{"ShapeId":"shape8479","Layers":[2],"Text":"","IsContainer":false},"shape8480":{"ShapeId":"shape8480","Layers":[2],"Text":"","IsContainer":false},"shape8481":{"ShapeId":"shape8481","Props":{"Cost":null,"Process Number":null,"Owner":null,"Function":"","Start Date":null,"End Date":null,"Status":""},"ConnectedTo":["shape8459"],"ConnectedFrom":["shape8458"],"Layers":[1],"Text":"Re-quote and Cost if Necessary","IsContainer":false},"shape8482":{"ShapeId":"shape8482","Layers":[2],"Text":"","IsContainer":false}},"pages":[{"Name":"AM","Id":79,"FileName":"AM_Processes.html"}],"currentPage":{"Name":"AM","Id":79,"FileName":"AM_Processes.html"},"layers":[{"Name":"Flowchart","Index":1,"Visible":true},{"Name":"Connector","Index":2,"Visible":true}],"enableProps":false,"twoFingersTouch":false,"enableLinks":false,"enablePages":true,"enablePageLookup":false,"enableZoomCtrl":false,"enableZoomShift":false,"enableSearch":false,"enableMultiPageSearch":false,"enableSidebar":false,"enableTooltips":true,"enableSelection":true,"enableLayers":false,"enableFollowHyperlinks":true,"openHyperlinksInNewWindow":false,"transformVisioFileLinks":false,"keepRelativeLinks":true,"rightSidebar":false,"alwaysHideSidebar":false,"enableSidbarTitle":false,"enableSidebarHtml":false,"enableTooltipHtml":false,"enableD3":false,"tooltipPlacement":"","popoverPlacement":"","enablePopovers":false,"enablePopoverHtml":false,"tooltipTrigger":"","tooltipOutsideClick":false,"tooltipKeepOnHover":false,"tooltipTimeout":false,"tooltipTimeoutShow":"","tooltipTimeoutHide":"","popoverTrigger":"","popoverTimeout":false,"popoverOutsideClick":false,"popoverKeepOnHover":false,"popoverTimeoutShow":"","popoverTimeoutHide":"","enableContainerTip":false,"enablePropertySearch":true,"viewBox":"0 0 2304 9828"}
+        $(document).ready(function () { $("div.svg").panzoom({ svg: $("div.svg > svg").get(0), viewBox: "0 0 2304 9828" }).removeClass("appear"); });
+    </script>
+    <script src="vp/vp-script-1.2.12.min.js"></script>
+    
+</head>
+<body>
+    
+    
+    
+    
+    <div id="svg" class="svg appear">
+        <svg width="100%" height="100%" xml:space="preserve" color-interpolation-filters="sRGB" class="st32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+	
+
+	<style type="text/css">
+	.st1 {fill:#d9958f;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25;}
+	.st2 {fill:#000000;font-family:Calibri;font-size:1.99999em;}
+	.st3 {fill:#d9958f;marker-end:url(#mrkr4-8);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25;}
+	.st4 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.3315649867374;}
+	.st5 {fill:#000000;font-family:Calibri;font-size:0.833336em;}
+	.st6 {font-size:1em;}
+	.st7 {marker-end:url(#mrkr4-8);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25;}
+	.st8 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2;}
+	.st9 {fill:#d9958f;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25;}
+	.st10 {fill:#000000;font-family:Calibri;font-size:0.666664em;}
+	.st11 {fill:#d9958f;marker-end:url(#mrkr4-8);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25;}
+	.st12 {fill:#d9958f;marker-end:url(#mrkr4-530);stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25;}
+	.st13 {fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:0.3315649867374;}
+	.st14 {fill:#ffffff;stroke:none;stroke-linecap:butt;}
+	.st15 {fill:#f2f2f2;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25;}
+	.st16 {font-size:1em;font-weight:bold;text-decoration:underline;}
+	.st17 {font-size:1em;font-weight:bold;}
+	.st18 {fill:#d9958f;}
+	.st19 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25;}
+	.st20 {fill:#000000;font-family:Calibri;font-size:0.666664em;font-weight:bold;}
+	.st21 {fill:#f2f2f2;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25;}
+	.st22 {fill:#000000;font-family:Calibri;font-size:1.00001em;font-weight:bold;}
+	.st23 {fill:#000000;font-family:Calibri;font-size:0.833336em;font-weight:bold;}
+	.st24 {font-size:1em;text-decoration:underline;}
+	.st25 {font-size:1em;font-weight:normal;}
+	.st26 {fill:#92d050;}
+	.st27 {fill:#7e649e;}
+	.st28 {fill:#000000;font-family:Calibri;font-size:0.75em;}
+	.st29 {fill:#d9958f;stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:10;}
+	.st30 {fill:none;stroke:none;stroke-width:0.25;}
+	.st31 {fill:#ffffff;font-family:Calibri;font-size:8.33334em;font-weight:bold;}
+	.st32 {fill:none;fill-rule:evenodd;font-size:12px;overflow:hidden;stroke-linecap:square;stroke-miterlimit:3;}
+</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none" />
+		</g>
+		<marker style="overflow:visible" id="mrkr4-8" class="st4" refX="-6.032" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.016,-3.016) " />
+		</marker>
+		<marker style="overflow:visible" id="mrkr4-530" class="st13" refX="-6.032" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.016,-3.016) " />
+		</marker>
+	</defs>
+	<g id="viewport">
+		
+		
+		
+		
+		<g id="shape8000" transform="translate(406.051,-307.513)">
+			
+			<g id="shape8001-2" transform="translate(3.82677,-317.622)">
+				
+				<desc>Cancellation Process</desc>
+				
+				
+				<rect x="0" y="9771.31" width="865.028" height="56.6929" class="st1" />
+				<text x="4" y="9806.85" class="st2">Cancellation Process</text>			</g>
+			<g id="shape8002-5" transform="translate(144.85,-78.5197)">
+				
+				<desc>Put batch on hold</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="9.59" y="9803.74" class="st5">Put batch on <tspan x="26.39" dy="1.2em" class="st6">hold</tspan></text>			</g>
+			<g id="shape8003-11" transform="translate(215.716,-92.6929)">
+				
+				<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+			</g>
+			<g id="shape8004-16" transform="translate(282.755,-78.5197)">
+				
+				<desc>Where is batch in process?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="4.84" y="9803.74" class="st5">Where is batch <tspan x="12.69" dy="1.2em" class="st6">in process?</tspan></text>			</g>
+			<g id="shape8005-21" transform="translate(353.621,-92.6929)">
+				
+				<desc>Not Blended</desc>
+				
+				
+				<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+				<rect x="8.12638" y="9814.91" width="50.7868" height="12.0001" class="st8" />
+				<text x="8.13" y="9823.91" class="st5">Not Blended</text>			</g>
+			<g id="shape8006-28" transform="translate(420.661,-78.5197)">
+				
+				<desc>Can materials be re-allocated?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="7.67" y="9803.74" class="st5">Can materials <tspan x="2.48" dy="1.2em" class="st6">be re</tspan>-allocated?</text>			</g>
+			<g id="shape8007-33" transform="translate(491.527,-106.866)">
+				
+				<desc>Yes</desc>
+				
+				
+				<path d="M0 9835.09 L49.72 9835.09" class="st7" />
+				<rect x="21.75" y="9829.09" width="13.7598" height="12.0001" class="st8" />
+				<text x="21.75" y="9838.09" class="st5">Yes</text>			</g>
+			<g id="shape8008-40" transform="translate(548.787,-78.5197)">
+				
+				<desc>Any additional fees?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="6.09" y="9803.74" class="st5">Any additional <tspan x="24.66" dy="1.2em" class="st6">fees?</tspan></text>			</g>
+			<g id="shape8009-45" transform="translate(619.653,-106.583)">
+				
+				<desc>No</desc>
+				
+				
+				<path d="M0 9834.8 L13.57 9834.8 L13.57 9835.37 L50.54 9835.37" class="st7" />
+				<rect x="22.8898" y="9829.37" width="11.7285" height="12.0001" class="st8" />
+				<text x="22.89" y="9838.37" class="st5">No</text>			</g>
+			<g id="shape8010-52" transform="translate(677.728,-77.9528)">
+				
+				<desc>Send Cancellation email</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="25.39" y="9797.74" class="st5">Send <tspan x="10.37" dy="1.2em" class="st6">Cancellation </tspan><tspan x="24.26" dy="1.2em" class="st6">email</tspan></text>			</g>
+			<g id="shape8011-58" transform="translate(748.594,-92.126)">
+				
+				<path d="M0 9820.91 L40.22 9820.91" class="st7" />
+			</g>
+			<g id="shape8012-63" transform="translate(796.359,-85.0394)">
+				
+				<desc>Confirm Cancelled</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="19.09" y="9810.83" class="st5">Confirm <tspan x="15.73" dy="1.2em" class="st6">Cancelled</tspan></text>			</g>
+			<g id="shape8013-68" transform="translate(1.46683E-12,-170.079)">
+				
+				<desc>From Client</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="11.88" y="9816.83" class="st5">From Client</text>			</g>
+			<g id="shape8014-72" transform="translate(9.55236E-13,-127.559)">
+				
+				<desc>From Regulatory</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="24.76" y="9810.83" class="st5">From <tspan x="13.39" dy="1.2em" class="st6">Regulatory</tspan></text>			</g>
+			<g id="shape8015-77" transform="translate(-6.79456E-14,-85.6063)">
+				
+				<desc>From Sales</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="13.35" y="9816.83" class="st5">From Sales</text>			</g>
+			<g id="shape8016-81" transform="translate(9.55236E-13,-42.5197)">
+				
+				<desc>From R&amp;D/PD</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="6.84" y="9816.83" class="st5">From R&amp;D/PD</text>			</g>
+			<g id="shape8017-85">
+				
+				<desc>From Purchasing</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="24.76" y="9810.83" class="st5">From <tspan x="13.26" dy="1.2em" class="st6">Purchasing</tspan></text>			</g>
+			<g id="shape8018-90" transform="translate(282.755,-155.906)">
+				
+				<desc>Get cost estimate from Purchasing</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="18.6" y="9797.74" class="st5">Get cost <tspan x="6.58" dy="1.2em" class="st6">estimate from </tspan><tspan x="13.26" dy="1.2em" class="st6">Purchasing</tspan></text>			</g>
+			<g id="shape8019-96" transform="translate(420.661,-155.906)">
+				
+				<desc>Get cost estimate from Purchasing</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="18.6" y="9797.74" class="st5">Get cost <tspan x="6.58" dy="1.2em" class="st6">estimate from </tspan><tspan x="13.26" dy="1.2em" class="st6">Purchasing</tspan></text>			</g>
+			<g id="shape8020-102" transform="translate(548.787,-155.906)">
+				
+				<desc>Get cost estimate from Operations</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="18.6" y="9797.74" class="st5">Get cost <tspan x="6.58" dy="1.2em" class="st6">estimate from </tspan><tspan x="12.83" dy="1.2em" class="st6">Operations</tspan></text>			</g>
+			<g id="shape8021-108" transform="translate(677.728,-233.291)">
+				
+				<desc>Did Client approve fees?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="15.7" y="9803.74" class="st5">Did Client <tspan x="6.75" dy="1.2em" class="st6">approve fees?</tspan></text>			</g>
+			<g id="shape8022-113" transform="translate(318.188,-198.425)">
+				
+				<path d="M0 9828 L0 9771.87 L352 9771.87" class="st7" />
+			</g>
+			<g id="shape8023-118" transform="translate(456.094,-198.425)">
+				
+				<path d="M0 9828 L0 9771.87 L214.09 9771.87" class="st7" />
+			</g>
+			<g id="shape8024-123" transform="translate(584.22,-198.425)">
+				
+				<path d="M0 9828 L0 9771.87 L85.97 9771.87" class="st7" />
+			</g>
+			<g id="shape8025-128" transform="translate(706.074,-233.291)">
+				
+				<path d="M7.09 9828 L7.09 9933.28" class="st7" />
+			</g>
+			<g id="shape8026-133" transform="translate(311.102,-121.039)">
+				
+				<desc>Blended</desc>
+				
+				
+				<path d="M7.09 9828 L7.09 9800.67" class="st7" />
+				<rect x="-9.63739" y="9804.57" width="33.4479" height="12.0001" class="st8" />
+				<text x="-9.64" y="9813.57" class="st5">Blended</text>			</g>
+			<g id="shape8027-140" transform="translate(449.007,-121.039)">
+				
+				<desc>No</desc>
+				
+				
+				<path d="M7.09 9828 L7.09 9800.67" class="st7" />
+				<rect x="1.22233" y="9804.57" width="11.7285" height="12.0001" class="st8" />
+				<text x="1.22" y="9813.57" class="st5">No</text>			</g>
+			<g id="shape8028-147" transform="translate(577.133,-121.039)">
+				
+				<desc>Yes</desc>
+				
+				
+				<path d="M7.09 9828 L7.09 9800.67" class="st7" />
+				<rect x="0.20664" y="9804.57" width="13.7598" height="12.0001" class="st8" />
+				<text x="0.21" y="9813.57" class="st5">Yes</text>			</g>
+			<g id="shape8029-154" transform="translate(70.8661,-184.252)">
+				
+				<path d="M0 9828 L13.57 9828 L13.57 9912.47 L66.44 9912.47" class="st7" />
+			</g>
+			<g id="shape8030-159" transform="translate(70.8661,-141.732)">
+				
+				<path d="M0 9828 L13.57 9828 L13.57 9869.95 L66.44 9869.95" class="st7" />
+			</g>
+			<g id="shape8031-164" transform="translate(70.8661,-92.6929)">
+				
+				<path d="M0 9820.91 L66.44 9820.91" class="st7" />
+			</g>
+			<g id="shape8032-169" transform="translate(70.8661,-56.6929)">
+				
+				<path d="M0 9828 L13.57 9828 L13.57 9784.91 L66.44 9784.91" class="st7" />
+			</g>
+			<g id="shape8033-174" transform="translate(70.8661,-14.1732)">
+				
+				<path d="M0 9828 L13.57 9828 L13.57 9742.39 L66.44 9742.39" class="st7" />
+			</g>
+		</g>
+		<g id="shape8080" transform="translate(406.051,-1569.52)">
+			
+			<g id="shape8081-180" transform="translate(0,-7.08662)">
+				
+				<desc>From Regulatory</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="24.76" y="9810.83" class="st5">From <tspan x="13.39" dy="1.2em" class="st6">Regulatory</tspan></text>			</g>
+			<g id="shape8082-185" transform="translate(3.82677,-239.102)">
+				
+				<desc>Label Correction Notice Process</desc>
+				
+				
+				<rect x="0" y="9771.31" width="756" height="56.6929" class="st1" />
+				<text x="4" y="9806.85" class="st2">Label Correction Notice Process</text>			</g>
+			<g id="shape8083-188" transform="translate(70.8661,-28.3465)">
+				
+				<path d="M0 9835.09 L66.44 9835.09" class="st7" />
+			</g>
+			<g id="shape8084-193" transform="translate(144.85,0)">
+				
+				<desc>Is the LCN attached?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="2.07" y="9809.14" class="st10">Is the LCN attached?</text>			</g>
+			<g id="shape8085-197" transform="translate(215.716,-14.1732)">
+				
+				<desc>Yes</desc>
+				
+				
+				<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+				<rect x="28.0158" y="9816.11" width="11.0078" height="9.59985" class="st8" />
+				<text x="28.02" y="9823.31" class="st10">Yes</text>			</g>
+			<g id="shape8086-204" transform="translate(282.755,-1.36471E-05)">
+				
+				<desc>Upload doc into DocuSign</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="9.54" y="9804.34" class="st10">Upload doc into <tspan x="20.33" dy="1.2em" class="st6">DocuSign</tspan></text>			</g>
+			<g id="shape8087-209" transform="translate(353.621,-14.1732)">
+				
+				<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+			</g>
+			<g id="shape8088-214" transform="translate(420.661,-1.36471E-05)">
+				
+				<desc>Send to Client</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="12.74" y="9809.14" class="st10">Send to Client</text>			</g>
+			<g id="shape8089-218" transform="translate(491.527,-28.3465)">
+				
+				<path d="M0 9835.09 L49.72 9835.09" class="st7" />
+			</g>
+			<g id="shape8090-223" transform="translate(548.787,0)">
+				
+				<desc>Did client sign LCN?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="3.56" y="9809.14" class="st10">Did client sign LCN?</text>			</g>
+			<g id="shape8091-227" transform="translate(619.653,-14.1732)">
+				
+				<path d="M0 9820.91 L57.94 9820.91" class="st7" />
+			</g>
+			<g id="shape8092-232" transform="translate(685.134,-7.08661)">
+				
+				<desc>Return signed form to Regulatory</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="4.05" y="9811.43" class="st10">Return signed form <tspan x="13.45" dy="1.2em" class="st6">to Regulatory</tspan></text>			</g>
+			<g id="shape8093-237" transform="translate(144.85,-84.4725)">
+				
+				<desc>Wait for LCN or clairify with Client</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="10.36" y="9804.34" class="st10">Wait for LCN or <tspan x="6.22" dy="1.2em" class="st6">clairify with Client</tspan></text>			</g>
+			<g id="shape8094-242" transform="translate(173.196,-42.5197)">
+				
+				<desc>No</desc>
+				
+				
+				<path d="M7.09 9828 L7.09 9793.59" class="st7" />
+				<rect x="2.39524" y="9802.22" width="9.38287" height="9.59985" class="st8" />
+				<text x="2.4" y="9809.42" class="st10">No</text>			</g>
+			<g id="shape8095-249" transform="translate(548.787,-84.4725)">
+				
+				<desc>Follow up with client after 2 days</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="11.45" y="9804.34" class="st10">Follow up with <tspan x="6.48" dy="1.2em" class="st6">client after 2 days</tspan></text>			</g>
+			<g id="shape8096-254" transform="translate(577.133,-42.5197)">
+				
+				<path d="M7.09 9828 L7.09 9793.59" class="st7" />
+			</g>
+		</g>
+		<g id="shape8097" transform="translate(406.051,-2160.54)">
+			
+			<g id="shape8098-260" transform="translate(0,-68.5984)">
+				
+				<desc>From Client/From Regulatory</desc>
+				
+				
+				
+				
+				<path d="M17.72 9828 L53.15 9828 A17.7165 21.2598 -180 0 0 53.15 9785.48 L17.72 9785.48 A17.7165 21.2598 -180 1 0         17.72 9828 Z" class="st9" />
+				<text x="9.95" y="9797.74" class="st5">From Client/<tspan x="24.76" dy="1.2em" class="st6">From </tspan><tspan x="13.39" dy="1.2em" class="st6">Regulatory</tspan></text>			</g>
+			<g id="shape8099-266" transform="translate(3.82677,-307.701)">
+				
+				<desc>Regulatory tickets/testing Finished Goods Level</desc>
+				
+				
+				<rect x="0" y="9771.31" width="872.078" height="56.6929" class="st11" />
+				<text x="4" y="9806.85" class="st2">Regulatory tickets/testing Finished Goods Level</text>			</g>
+			<g id="shape8100-270" transform="translate(70.8661,-96.9449)">
+				
+				<path d="M0 9835.09 L66.44 9835.09" class="st7" />
+			</g>
+			<g id="shape8101-275" transform="translate(144.85,-68.5984)">
+				
+				<desc>Is there existing ticket?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="9.79" y="9804.34" class="st10">Is there existing <tspan x="24.48" dy="1.2em" class="st6">ticket?</tspan></text>			</g>
+			<g id="shape8102-280" transform="translate(215.716,-82.7716)">
+				
+				<desc>Yes</desc>
+				
+				
+				<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+				<rect x="28.0158" y="9816.11" width="11.0078" height="9.59985" class="st8" />
+				<text x="28.02" y="9823.31" class="st10">Yes</text>			</g>
+			<g id="shape8103-287" transform="translate(282.755,-68.5984)">
+				
+				<desc>Is batch contingent on outcome</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="4.33" y="9804.34" class="st10">Is batch contingent <tspan x="15.78" dy="1.2em" class="st6">on outcome</tspan></text>			</g>
+			<g id="shape8104-292" transform="translate(353.621,-82.7716)">
+				
+				<desc>No</desc>
+				
+				
+				<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+				<rect x="28.8283" y="9816.11" width="9.38287" height="9.59985" class="st8" />
+				<text x="28.83" y="9823.31" class="st10">No</text>			</g>
+			<g id="shape8105-299" transform="translate(420.661,-68.5984)">
+				
+				<desc>Update and confirm inquiry</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="2.86" y="9804.34" class="st10">Update and confirm <tspan x="24.09" dy="1.2em" class="st6">inquiry</tspan></text>			</g>
+			<g id="shape8106-304" transform="translate(491.527,-96.9449)">
+				
+				<path d="M0 9835.09 L49.72 9835.09" class="st7" />
+			</g>
+			<g id="shape8107-309" transform="translate(548.787,-68.5984)">
+				
+				<desc>Regulatory approved?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="17.8" y="9804.34" class="st10">Regulatory <tspan x="18.06" dy="1.2em" class="st6">approved?</tspan></text>			</g>
+			<g id="shape8108-314" transform="translate(619.653,-82.7716)">
+				
+				<path d="M0 9820.91 L27.04 9820.91" class="st7" />
+			</g>
+			<g id="shape8109-319" transform="translate(654.236,-68.5984)">
+				
+				<desc>Confirm certifications or approvals</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="22.36" y="9799.54" class="st10">Confirm <tspan x="9.91" dy="1.2em" class="st6">certifications or </tspan><tspan x="19.6" dy="1.2em" class="st6">approvals</tspan></text>			</g>
+			<g id="shape8110-325" transform="translate(725.102,-82.7716)">
+				
+				<path d="M0 9820.91 L72.4 9820.91" class="st7" />
+			</g>
+			<g id="shape8111-330" transform="translate(805.039,-75.685)">
+				
+				<desc>Email Client</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="16.23" y="9816.23" class="st10">Email Client</text>			</g>
+			<g id="shape8112-334" transform="translate(144.85,-160.157)">
+				
+				<desc>Open ticket</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="16.59" y="9809.14" class="st10">Open ticket</text>			</g>
+			<g id="shape8113-338" transform="translate(282.755,-160.157)">
+				
+				<desc>Put batch on hold</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="6.62" y="9809.14" class="st10">Put batch on hold</text>			</g>
+			<g id="shape8114-342" transform="translate(548.787,-160.157)">
+				
+				<desc>Change request required?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="9.92" y="9804.34" class="st10">Change request <tspan x="19.59" dy="1.2em" class="st6">required?</tspan></text>			</g>
+			<g id="shape8115-347" transform="translate(548.787,-251.717)">
+				
+				<desc>Reach out to client for updates</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="4.89" y="9804.34" class="st10">Reach out to client <tspan x="16.69" dy="1.2em" class="st6">for updates</tspan></text>			</g>
+			<g id="shape8116-352" transform="translate(676.913,-168.661)">
+				
+				<desc>A</desc>
+				
+				
+				
+				<path d="M0 9815.24 A12.7559 12.7559 0 0 1 25.51 9815.24 A12.7559 12.7559 0 1 1 0 9815.24 Z" class="st9" />
+				<text x="10.44" y="9817.64" class="st10">A</text>			</g>
+			<g id="shape8117-356" transform="translate(443.338,0)">
+				
+				<desc>B</desc>
+				
+				
+				
+				<path d="M0 9815.24 A12.7559 12.7559 0 0 1 25.51 9815.24 A12.7559 12.7559 0 1 1 0 9815.24 Z" class="st9" />
+				<text x="10.58" y="9817.64" class="st10">B</text>			</g>
+			<g id="shape8118-360" transform="translate(619.653,-174.331)">
+				
+				<path d="M0 9820.91 L49.72 9820.91" class="st7" />
+			</g>
+			<g id="shape8119-365" transform="translate(449.007,-25.5118)">
+				
+				<path d="M7.09 9828 L7.09 9792.45" class="st7" />
+			</g>
+			<g id="shape8120-370" transform="translate(548.787,-272.976)">
+				
+				<path d="M0 9828 L-92.69 9828 L-92.69 9982.32" class="st7" />
+			</g>
+			<g id="shape8121-375" transform="translate(577.133,-111.118)">
+				
+				<path d="M7.09 9828 L7.09 9786.5" class="st7" />
+			</g>
+			<g id="shape8122-380" transform="translate(577.133,-202.677)">
+				
+				<path d="M7.09 9828 L7.09 9786.5" class="st7" />
+			</g>
+			<g id="shape8123-385" transform="translate(311.102,-111.118)">
+				
+				<desc>Yes</desc>
+				
+				
+				<path d="M7.09 9828 L7.09 9786.5" class="st7" />
+				<rect x="1.5828" y="9798.68" width="11.0078" height="9.59985" class="st8" />
+				<text x="1.58" y="9805.88" class="st10">Yes</text>			</g>
+			<g id="shape8124-392" transform="translate(173.196,-111.118)">
+				
+				<desc>No</desc>
+				
+				
+				<path d="M7.09 9828 L7.09 9786.5" class="st7" />
+				<rect x="2.39524" y="9798.68" width="9.38287" height="9.59985" class="st8" />
+				<text x="2.4" y="9805.88" class="st10">No</text>			</g>
+		</g>
+		<g id="shape8125" transform="translate(413.247,-3538.91)" class="Start/End">
+			
+			<desc>From Sales</desc>
+			
+			
+			
+			
+			<path d="M22.08 9828 L66.24 9828 A22.079 27.9212 -180 0 0 66.24 9772.16 L22.08 9772.16 A22.079 27.9212 -180 1 0 22.08        9828 Z" class="st9" />
+			<text x="22.07" y="9803.08" class="st5">From Sales</text>		</g>
+		<g id="shape8126" transform="translate(406.051,-3799.87)">
+			
+			<desc>Regulatory tickets/testing PRIOR to order</desc>
+			
+			
+			<rect x="0" y="9771.31" width="875.905" height="56.6929" class="st1" />
+			<text x="4" y="9806.85" class="st2">Regulatory tickets/testing PRIOR to order</text>		</g>
+		<g id="shape8127" transform="translate(501.564,-3566.83)" class="Dynamic connector">
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9864.43 L69.72 9864.43" class="st7" />
+		</g>
+		<g id="shape8128" transform="translate(578.824,-3509.14)" class="Process">
+			
+			<desc>Is there existing ticket</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="3.38" y="9803.74" class="st5">Is there existing <tspan x="24.06" dy="1.2em" class="st6">ticket</tspan></text>		</g>
+		<g id="shape8129" transform="translate(649.69,-3523.32)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+			<rect x="26.6397" y="9814.91" width="13.7598" height="12.0001" class="st8" />
+			<text x="26.64" y="9823.91" class="st5">Yes</text>		</g>
+		<g id="shape8130" transform="translate(716.729,-3509.14)" class="Process">
+			
+			<desc>Is batch contingent on outcome?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="19.65" y="9797.74" class="st5">Is batch <tspan x="7.07" dy="1.2em" class="st6">contingent on </tspan><tspan x="14.94" dy="1.2em" class="st6">outcome?</tspan></text>		</g>
+		<g id="shape8131" transform="translate(787.596,-3523.32)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+			<rect x="27.6554" y="9814.91" width="11.7285" height="12.0001" class="st8" />
+			<text x="27.66" y="9823.91" class="st5">No</text>		</g>
+		<g id="shape8132" transform="translate(854.635,-3509.14)" class="Process">
+			
+			<desc>Update and confirm inquiry</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="11.63" y="9803.74" class="st5">Update and <tspan x="4.33" dy="1.2em" class="st6">confirm inquiry</tspan></text>		</g>
+		<g id="shape8133" transform="translate(925.501,-3537.49)" class="Dynamic connector">
+			
+			<path d="M0 9835.09 L49.72 9835.09" class="st7" />
+		</g>
+		<g id="shape8134" transform="translate(982.761,-3509.14)" class="Process">
+			
+			<desc>Regulatory approved?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="13.39" y="9803.74" class="st5">Regulatory <tspan x="13.71" dy="1.2em" class="st6">approved?</tspan></text>		</g>
+		<g id="shape8135" transform="translate(1053.63,-3523.32)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9820.91 L50.31 9820.91" class="st7" />
+			<rect x="22.043" y="9814.91" width="13.7598" height="12.0001" class="st8" />
+			<text x="22.04" y="9823.91" class="st5">Yes</text>		</g>
+		<g id="shape8136" transform="translate(1111.47,-3509.14)" class="Process">
+			
+			<desc>Confirm certifications or approvals</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="19.09" y="9797.74" class="st5">Confirm <tspan x="3.53" dy="1.2em" class="st6">certifications or </tspan><tspan x="15.65" dy="1.2em" class="st6">approvals</tspan></text>		</g>
+		<g id="shape8137" transform="translate(1239.01,-3516.23)" class="Start/End">
+			
+			<desc>Email Client</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="11.43" y="9816.83" class="st5">Email Client</text>		</g>
+		<g id="shape8138" transform="translate(1182.34,-3523.32)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L49.13 9820.91" class="st7" />
+		</g>
+		<g id="shape8139" transform="translate(982.761,-3588.3)" class="Process">
+			
+			<desc>Change request required?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="3.54" y="9803.74" class="st5">Change request <tspan x="15.63" dy="1.2em" class="st6">required?</tspan></text>		</g>
+		<g id="shape8140" transform="translate(982.761,-3667.46)" class="Process">
+			
+			<desc>Reach out to client for updates</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="9.58" y="9797.74" class="st5">Reach out to <tspan x="17.2" dy="1.2em" class="st6">client for </tspan><tspan x="19.04" dy="1.2em" class="st6">updates</tspan></text>		</g>
+		<g id="shape8141" transform="translate(1011.11,-3551.66)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9798.9" class="st7" />
+			<rect x="1.22233" y="9803.68" width="11.7285" height="12.0001" class="st8" />
+			<text x="1.22" y="9812.68" class="st5">No</text>		</g>
+		<g id="shape8142" transform="translate(1011.11,-3630.82)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9798.9" class="st7" />
+			<rect x="1.22233" y="9803.68" width="11.7285" height="12.0001" class="st8" />
+			<text x="1.22" y="9812.68" class="st5">No</text>		</g>
+		<g id="shape8143" transform="translate(1110.89,-3596.8)" class="On-page reference">
+			
+			<desc>A</desc>
+			
+			
+			
+			<path d="M0 9815.24 A12.7559 12.7559 0 0 1 25.51 9815.24 A12.7559 12.7559 0 1 1 0 9815.24 Z" class="st9" />
+			<text x="9.86" y="9818.24" class="st5">A</text>		</g>
+		<g id="shape8144" transform="translate(1053.63,-3602.47)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9820.91 L49.72 9820.91" class="st7" />
+			<rect x="21.75" y="9814.91" width="13.7598" height="12.0001" class="st8" />
+			<text x="21.75" y="9823.91" class="st5">Yes</text>		</g>
+		<g id="shape8145" transform="translate(982.761,-3688.72)" class="Dynamic connector">
+			
+			<path d="M0 9828 L-92.69 9828 L-92.69 9957.52" class="st7" />
+		</g>
+		<g id="shape8146" transform="translate(877.312,-3453.3)" class="On-page reference">
+			
+			<desc>B</desc>
+			
+			
+			
+			<path d="M0 9815.24 A12.7559 12.7559 0 0 1 25.51 9815.24 A12.7559 12.7559 0 1 1 0 9815.24 Z" class="st9" />
+			<text x="10.04" y="9818.24" class="st5">B</text>		</g>
+		<g id="shape8147" transform="translate(882.981,-3478.81)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9805.21" class="st7" />
+		</g>
+		<g id="shape8148" transform="translate(578.824,-3599.28)" class="Process">
+			
+			<desc>Open Ticket</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="11.12" y="9809.74" class="st5">Open Ticket</text>		</g>
+		<g id="shape8149" transform="translate(716.729,-3599.28)" class="Process">
+			
+			<desc>Put batch on hold</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st12" />
+			<text x="9.59" y="9803.74" class="st5">Put batch on <tspan x="26.39" dy="1.2em" class="st6">hold</tspan></text>		</g>
+		<g id="shape8150" transform="translate(745.076,-3551.66)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9787.92" class="st7" />
+			<rect x="0.20664" y="9798.19" width="13.7598" height="12.0001" class="st8" />
+			<text x="0.21" y="9807.19" class="st5">Yes</text>		</g>
+		<g id="shape8151" transform="translate(607.17,-3551.66)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9787.92" class="st7" />
+			<rect x="1.22233" y="9798.19" width="11.7285" height="12.0001" class="st8" />
+			<text x="1.22" y="9807.19" class="st5">No</text>		</g>
+		<g id="shape8185" transform="translate(416.255,-5919.69)" class="Start/End">
+			
+			<desc>Email from Client</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="13.28" y="9810.83" class="st5">Email from <tspan x="23.68" dy="1.2em" class="st6">Client</tspan></text>		</g>
+		<g id="shape8186" transform="translate(406.051,-6176.66)">
+			
+			<desc>Label PDF review/Cust. tickets</desc>
+			
+			
+			<rect x="0" y="9771.31" width="872.078" height="56.6929" class="st1" />
+			<text x="4" y="9806.85" class="st2">Label PDF review/Cust. tickets</text>		</g>
+		<g id="shape8187" transform="translate(487.121,-5940.95)" class="Dynamic connector">
+			
+			<path d="M0 9835.09 L52.41 9835.09" class="st7" />
+		</g>
+		<g id="shape8188" transform="translate(547.074,-5912.6)" class="Process">
+			
+			<desc>Open Customer/Label Ticket</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="8.31" y="9804.34" class="st10">Open Customer/<tspan x="16.21" dy="1.2em" class="st6">Label Ticket</tspan></text>		</g>
+		<g id="shape8189" transform="translate(582.507,-5955.12)" class="Dynamic connector">
+			
+			<path d="M0 9828 L0 9807.31 L94.93 9807.31" class="st7" />
+		</g>
+		<g id="shape8190" transform="translate(684.979,-5954.55)" class="Process">
+			
+			<desc>QC approved for SFP?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="8.55" y="9804.34" class="st10">QC approved for <tspan x="27.84" dy="1.2em" class="st6">SFP?</tspan></text>		</g>
+		<g id="shape8191" transform="translate(755.845,-5975.81)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9828 L102.47 9828 L102.47 9841.15" class="st7" />
+			<rect x="56.8913" y="9823.2" width="9.38287" height="9.59985" class="st8" />
+			<text x="56.89" y="9830.4" class="st10">No</text>		</g>
+		<g id="shape8192" transform="translate(822.885,-5912.6)" class="Process">
+			
+			<desc>Email client for revision</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="11.04" y="9804.34" class="st10">Email client for <tspan x="22.63" dy="1.2em" class="st6">revision</tspan></text>		</g>
+		<g id="shape8193" transform="translate(1054.76,-5912.6)" class="Process">
+			
+			<desc>Inform client approved to print</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="14.54" y="9804.34" class="st10">Inform client <tspan x="6.8" dy="1.2em" class="st6">approved to print</tspan></text>		</g>
+		<g id="shape8194" transform="translate(1207.26,-5919.69)" class="Start/End">
+			
+			<desc>Inform client approved to print</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="14.54" y="9811.43" class="st10">Inform client <tspan x="6.8" dy="1.2em" class="st6">approved to print</tspan></text>		</g>
+		<g id="shape8195" transform="translate(1125.63,-5940.95)" class="Dynamic connector">
+			
+			<path d="M0 9835.09 L74.1 9835.09" class="st7" />
+		</g>
+		<g id="shape8196" transform="translate(684.979,-5869.51)" class="Process">
+			
+			<desc>QC approved for SFP?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="8.55" y="9804.34" class="st10">QC approved for <tspan x="27.84" dy="1.2em" class="st6">SFP?</tspan></text>		</g>
+		<g id="shape8197" transform="translate(582.507,-5912.6)" class="Dynamic connector">
+			
+			<path d="M0 9828 L0 9849.83 L94.93 9849.83" class="st7" />
+		</g>
+		<g id="shape8198" transform="translate(755.845,-5890.77)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9828 L102.47 9828 L102.47 9813.71" class="st7" />
+			<rect x="57.4582" y="9823.2" width="9.38287" height="9.59985" class="st14" />
+			<text x="57.46" y="9830.4" class="st10">No</text>		</g>
+		<g id="shape8199" transform="translate(720.412,-5869.51)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9828 L0 9841.57 L369.78 9841.57 L369.78 9792.45" class="st7" />
+			<rect x="200.93" y="9836.77" width="11.0078" height="9.59985" class="st8" />
+			<text x="200.93" y="9843.97" class="st10">Yes</text>		</g>
+		<g id="shape8200" transform="translate(720.412,-5997.07)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9828 L0 9814.43 L369.78 9814.43 L369.78 9862.41" class="st7" />
+			<rect x="200.363" y="9809.63" width="11.0078" height="9.59985" class="st8" />
+			<text x="200.36" y="9816.83" class="st10">Yes</text>		</g>
+		<g id="shape8201" transform="translate(938.823,-5919.69)" class="Start/End">
+			
+			<desc>Upload revision from client to ticket</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="10.01" y="9811.43" class="st10">Upload revision <tspan x="3.3" dy="1.2em" class="st6">from client to ticket</tspan></text>		</g>
+		<g id="shape8202" transform="translate(893.751,-5926.77)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L37.53 9820.91" class="st7" />
+		</g>
+		<g id="shape8203" transform="translate(406.051,-5233.93)">
+			
+			<g id="shape8204-642" transform="translate(3.32534E-12,-288.567)">
+				
+				<desc>Generating Docs for Client Orders</desc>
+				
+				
+				<rect x="0" y="9771.31" width="1343.2" height="56.6929" class="st1" />
+				<text x="4" y="9806.85" class="st2">Generating Docs for Client Orders</text>			</g>
+			<g id="shape8205-645" transform="translate(1.15108E-12,-7.08662)">
+				
+				<desc>Open Costing ID</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="2.72" y="9816.83" class="st5">Open Costing ID</text>			</g>
+			<g id="shape8206-649" transform="translate(70.8661,-28.3465)">
+				
+				<path d="M0 9835.09 L66.44 9835.09" class="st7" />
+			</g>
+			<g id="shape8207-654" transform="translate(144.85,0)">
+				
+				<desc>Are all TBD codes entered?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="13.13" y="9803.74" class="st5">Are all TBD <tspan x="4.03" dy="1.2em" class="st6">codes entered?</tspan></text>			</g>
+			<g id="shape8208-659" transform="translate(215.716,-14.1732)">
+				
+				<desc>Yes</desc>
+				
+				
+				<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+				<rect x="26.6397" y="9814.91" width="13.7598" height="12.0001" class="st8" />
+				<text x="26.64" y="9823.91" class="st5">Yes</text>			</g>
+			<g id="shape8209-666" transform="translate(282.755,-1.36471E-05)">
+				
+				<desc>Has SFP been generated?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="8.3" y="9803.74" class="st5">Has SFP been <tspan x="12.23" dy="1.2em" class="st6">generated?</tspan></text>			</g>
+			<g id="shape8210-671" transform="translate(353.621,-14.1732)">
+				
+				<desc>Yes</desc>
+				
+				
+				<path d="M0 9820.91 L46.6 9820.91" class="st7" />
+				<rect x="20.1913" y="9814.91" width="13.7598" height="12.0001" class="st8" />
+				<text x="20.19" y="9823.91" class="st5">Yes</text>			</g>
+			<g id="shape8211-678" transform="translate(407.764,-1.36471E-05)">
+				
+				<desc>Save SFP</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="17.69" y="9809.74" class="st5">Save SFP</text>			</g>
+			<g id="shape8212-682" transform="translate(478.63,-14.1732)">
+				
+				<path d="M0 9820.91 L46.6 9820.91" class="st7" />
+			</g>
+			<g id="shape8213-687" transform="translate(532.773,-1.36471E-05)">
+				
+				<desc>Save Finished Product Quote</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="7.95" y="9803.74" class="st5">Save Finished <tspan x="5.51" dy="1.2em" class="st6">Product Quote</tspan></text>			</g>
+			<g id="shape8214-692" transform="translate(603.639,-28.3465)">
+				
+				<path d="M0 9835.09 L46.6 9835.09" class="st7" />
+			</g>
+			<g id="shape8215-697" transform="translate(657.781,0)">
+				
+				<desc>Generate Label PO Form and Save</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="4.49" y="9797.74" class="st5">Generate Label <tspan x="8.96" dy="1.2em" class="st6">PO Form and </tspan><tspan x="25.99" dy="1.2em" class="st6">Save</tspan></text>			</g>
+			<g id="shape8216-703" transform="translate(1272.33,-7.08661)">
+				
+				<desc>Follow up until Signed</desc>
+				
+				
+				
+				
+				<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0         14.17 9828 Z" class="st9" />
+				<text x="5.25" y="9810.83" class="st5">Follow up until <tspan x="21.89" dy="1.2em" class="st6">Signed</tspan></text>			</g>
+			<g id="shape8217-708" transform="translate(728.648,-14.1732)">
+				
+				<path d="M0 9820.91 L46.6 9820.91" class="st7" />
+			</g>
+			<g id="shape8218-713" transform="translate(144.85,-90.1418)">
+				
+				<desc>Ping R&amp;D/PD</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="8.8" y="9809.74" class="st5">Ping R&amp;D/PD</text>			</g>
+			<g id="shape8219-717" transform="translate(282.755,-90.1418)">
+				
+				<desc>Open Ticket (See Process B)</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="11.12" y="9803.74" class="st5">Open Ticket <tspan x="4.67" dy="1.2em" class="st6">(See Process B)</tspan></text>			</g>
+			<g id="shape8220-722" transform="translate(311.102,-42.5197)">
+				
+				<desc>No</desc>
+				
+				
+				<path d="M7.09 9828 L7.09 9787.92" class="st7" />
+				<rect x="1.22233" y="9798.19" width="11.7285" height="12.0001" class="st8" />
+				<text x="1.22" y="9807.19" class="st5">No</text>			</g>
+			<g id="shape8221-729" transform="translate(173.196,-42.5197)">
+				
+				<desc>No</desc>
+				
+				
+				<path d="M7.09 9828 L7.09 9787.92" class="st7" />
+				<rect x="1.22233" y="9798.19" width="11.7285" height="12.0001" class="st8" />
+				<text x="1.22" y="9807.19" class="st5">No</text>			</g>
+			<g id="shape8222-736" transform="translate(782.79,0)">
+				
+				<desc>Save EXP and Stability Form</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="8.47" y="9803.74" class="st5">Save EXP and <tspan x="7.26" dy="1.2em" class="st6">Stability Form</tspan></text>			</g>
+			<g id="shape8223-741" transform="translate(853.656,-14.1732)">
+				
+				<path d="M0 9820.91 L46.6 9820.91" class="st7" />
+			</g>
+			<g id="shape8224-746" transform="translate(907.799,0)">
+				
+				<desc>Upload onto Docusign</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="10.09" y="9803.74" class="st5">Upload onto <tspan x="16.9" dy="1.2em" class="st6">Docusign</tspan></text>			</g>
+			<g id="shape8225-751" transform="translate(978.665,-14.1732)">
+				
+				<path d="M0 9820.91 L46.6 9820.91" class="st7" />
+			</g>
+			<g id="shape8226-756" transform="translate(1032.81,0)">
+				
+				<desc>Add Signature Box, and date fields as needed</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="6.8" y="9797.74" class="st5">Add Signature <tspan x="7.57" dy="1.2em" class="st6">Box, and date </tspan><tspan x="2.59" dy="1.2em" class="st6">fields as needed</tspan></text>			</g>
+			<g id="shape8227-762" transform="translate(1103.67,-14.1732)">
+				
+				<path d="M0 9820.91 L46.6 9820.91" class="st7" />
+			</g>
+			<g id="shape8228-767" transform="translate(1157.82,0)">
+				
+				<desc>Send to Client to sign</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="7.07" y="9803.74" class="st5">Send to Client <tspan x="21.91" dy="1.2em" class="st6">to sign</tspan></text>			</g>
+			<g id="shape8229-772" transform="translate(1228.68,-14.1732)">
+				
+				<path d="M0 9820.91 L36.11 9820.91" class="st7" />
+			</g>
+		</g>
+		<g id="shape8230" transform="translate(406.051,-3136.94)">
+			
+			<desc>Customer Complaint Process</desc>
+			
+			
+			<rect x="0" y="9771.31" width="872.078" height="56.6929" class="st1" />
+			<text x="4" y="9806.85" class="st2">Customer Complaint Process</text>		</g>
+		<g id="shape8231" transform="translate(406.051,-2867.09)" class="Start/End">
+			
+			<desc>From Client</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st15" />
+			<text x="11.88" y="9816.83" class="st5">From Client</text>		</g>
+		<g id="shape8232" transform="translate(476.917,-2888.35)" class="Dynamic connector">
+			
+			<path d="M0 9835.09 L66.44 9835.09" class="st7" />
+		</g>
+		<g id="shape8233" transform="translate(550.901,-2860)" class="Process">
+			
+			<desc>Is Issue causing illness?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="4.45" y="9803.74" class="st5">Is Issue causing <tspan x="20.65" dy="1.2em" class="st6">illness?</tspan></text>		</g>
+		<g id="shape8234" transform="translate(621.767,-2874.17)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+			<rect x="27.6554" y="9814.91" width="11.7285" height="12.0001" class="st8" />
+			<text x="27.66" y="9823.91" class="st5">No</text>		</g>
+		<g id="shape8235" transform="translate(688.806,-2860)" class="Process">
+			
+			<desc>Is client threatening Legal Action?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="19.89" y="9797.74" class="st5">Is client <tspan x="11.59" dy="1.2em" class="st6">threatening </tspan><tspan x="8.41" dy="1.2em" class="st6">Legal Action?</tspan></text>		</g>
+		<g id="shape8236" transform="translate(759.672,-2874.17)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9820.91 L46.6 9820.91" class="st7" />
+			<rect x="21.207" y="9814.91" width="11.7285" height="12.0001" class="st8" />
+			<text x="21.21" y="9823.91" class="st5">No</text>		</g>
+		<g id="shape8237" transform="translate(813.815,-2860)" class="Process">
+			
+			<desc>Open Complaint ticket</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="2.33" y="9803.74" class="st5">Open Complaint <tspan x="24.06" dy="1.2em" class="st6">ticket</tspan></text>		</g>
+		<g id="shape8238" transform="translate(884.681,-2888.35)" class="Dynamic connector">
+			
+			<path d="M0 9835.09 L46.6 9835.09" class="st7" />
+		</g>
+		<g id="shape8239" transform="translate(938.823,-2847.75)" class="Process">
+			
+			<desc>Generate Complaint Acknowledgement Form and send to client</desc>
+			
+			
+			
+			
+			<rect x="0" y="9760.98" width="70.8661" height="67.0151" class="st3" />
+			<text x="16.38" y="9773.49" class="st5">Generate <tspan x="14.52" dy="1.2em" class="st6">Complaint </tspan><tspan x="4.22" dy="1.2em" class="st6">Acknowledgem</tspan><tspan x="8.06" dy="1.2em" class="st6">ent Form and </tspan><tspan x="7.96" dy="1.2em" class="st6">send to client</tspan></text>		</g>
+		<g id="shape8240" transform="translate(1009.69,-2874.17)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L46.6 9820.91" class="st7" />
+		</g>
+		<g id="shape8241" transform="translate(1063.83,-2860)" class="Process">
+			
+			<desc>FROM R&amp;D/PD/QC</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="2.98" y="9803.74" class="st5">FROM R&amp;D/PD/<tspan x="29.4" dy="1.2em" class="st6">QC</tspan></text>		</g>
+		<g id="shape8242" transform="translate(1188.84,-2867.09)" class="Start/End">
+			
+			<desc>Send results to client as needed</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="5.23" y="9810.83" class="st5">Send results to <tspan x="2.28" dy="1.2em" class="st6">client as needed</tspan></text>		</g>
+		<g id="shape8243" transform="translate(1134.7,-2874.17)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L46.6 9820.91" class="st7" />
+		</g>
+		<g id="shape8244" transform="translate(550.901,-2950.14)" class="Process">
+			
+			<desc>Inform Executive Team Immediately</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="21.65" y="9797.74" class="st5">Inform <tspan x="3.58" dy="1.2em" class="st6">Executive Team </tspan><tspan x="9.95" dy="1.2em" class="st6">Immediately</tspan></text>		</g>
+		<g id="shape8245" transform="translate(724.239,-2902.52)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9828 L0 9759.12 L-94.93 9759.12" class="st7" />
+			<rect x="-23.6752" y="9753.12" width="13.7598" height="12.0001" class="st8" />
+			<text x="-23.68" y="9762.12" class="st5">Yes</text>		</g>
+		<g id="shape8246" transform="translate(579.247,-2902.52)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9787.92" class="st7" />
+			<rect x="0.20664" y="9798.19" width="13.7598" height="12.0001" class="st8" />
+			<text x="0.21" y="9807.19" class="st5">Yes</text>		</g>
+		<g id="shape8247" transform="translate(550.901,-3031.21)" class="Process">
+			
+			<desc>Open Complaint ticket</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="2.33" y="9803.74" class="st5">Open Complaint <tspan x="24.06" dy="1.2em" class="st6">ticket</tspan></text>		</g>
+		<g id="shape8248" transform="translate(579.247,-2992.66)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9796.99" class="st7" />
+		</g>
+		<g id="shape8249" transform="translate(413.247,-3461.8)" class="Start/End">
+			
+			<desc>From QC</desc>
+			
+			
+			
+			
+			<path d="M22.08 9828 L66.24 9828 A22.079 27.9212 -180 0 0 66.24 9772.16 L22.08 9772.16 A22.079 27.9212 -180 1 0 22.08        9828 Z" class="st9" />
+			<text x="26.33" y="9803.08" class="st5">From QC</text>		</g>
+		<g id="shape8250" transform="translate(501.564,-3489.72)" class="Dynamic connector">
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9787.32 L69.72 9787.32" class="st7" />
+		</g>
+		<g id="shape8251" transform="translate(424.846,-4118.48)" class="Off-page reference">
+			
+			<desc>A</desc>
+			
+			
+			
+			<path d="M34.02 9810.99 A17.0079 17.0079 -180 1 0 0 9810.99 A17.0079 17.0079 -180 1 0 34.02 9810.99 Z" class="st9" />
+			<text x="14.69" y="9813.39" class="st10">A</text>		</g>
+		<g id="shape8252" transform="translate(410.531,-4326.49)">
+			
+			<desc>Batch confirmation and review (After Batch Review Batch/WorkO...</desc>
+			
+			
+			<rect x="0" y="9717.61" width="479.068" height="110.385" class="st1" />
+			<text x="4" y="9765.61" class="st2">Batch confirmation and review (After Batch <tspan x="4" dy="1.2em" class="st6">Review Batch/WorkOrder)</tspan></text>		</g>
+		<g id="shape8253" transform="translate(551.554,-4149.1)" class="Process">
+			
+			<desc>Does Formula Code match?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="3.69" y="9804.34" class="st10">Does Formula Code <tspan x="23.34" dy="1.2em" class="st6">match?</tspan></text>		</g>
+		<g id="shape8254" transform="translate(551.554,-4078.23)" class="Process">
+			
+			<desc>Does Packaging Match?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="10.21" y="9804.34" class="st10">Does Packaging <tspan x="23.11" dy="1.2em" class="st6">Match?</tspan></text>		</g>
+		<g id="shape8255" transform="translate(458.861,-4135.49)" class="Dynamic connector">
+			
+			<path d="M0 9828 L79.37 9828 L79.37 9927.78 L85.15 9927.78" class="st7" />
+		</g>
+		<g id="shape8256" transform="translate(551.554,-4014.45)" class="Process">
+			
+			<desc>Does serving CT Match</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="9.76" y="9804.34" class="st10">Does serving CT <tspan x="24.96" dy="1.2em" class="st6">Match</tspan></text>		</g>
+		<g id="shape8257" transform="translate(551.554,-4212.88)" class="Process">
+			
+			<desc>Does qty match PO?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="2.53" y="9809.14" class="st10">Does qty match PO?</text>		</g>
+		<g id="shape8258" transform="translate(622.42,-4234.14)" class="Dynamic connector">
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9926.65 L82.6 9926.65" class="st7" />
+		</g>
+		<g id="shape8259" transform="translate(712.562,-4114.23)" class="Process">
+			
+			<desc>Are notes on WO Correct?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="7.5" y="9804.34" class="st10">Are notes on WO <tspan x="21.53" dy="1.2em" class="st6">Correct?</tspan></text>		</g>
+		<g id="shape8260" transform="translate(458.861,-4135.49)" class="Dynamic connector">
+			
+			<path d="M0 9828 L79.37 9828 L79.37 9864 L85.15 9864" class="st7" />
+		</g>
+		<g id="shape8261" transform="translate(458.861,-4135.49)" class="Dynamic connector">
+			
+			<path d="M0 9828 L79.37 9828 L79.37 9793.13 L85.15 9793.13" class="st7" />
+		</g>
+		<g id="shape8262" transform="translate(537.806,-4135.49)" class="Dynamic connector">
+			
+			<path d="M0.43 9828 L0.43 9729.35 L6.21 9729.35" class="st7" />
+		</g>
+		<g id="shape8263" transform="translate(622.42,-4170.36)" class="Dynamic connector">
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9862.87 L82.6 9862.87" class="st7" />
+		</g>
+		<g id="shape8264" transform="translate(622.42,-4099.49)" class="Dynamic connector">
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9792 L82.6 9792" class="st7" />
+		</g>
+		<g id="shape8265" transform="translate(622.42,-4035.71)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9728.22 L82.6 9728.22" class="st7" />
+			<rect x="44.9536" y="9723.42" width="11.0078" height="9.59985" class="st8" />
+			<text x="44.95" y="9730.62" class="st10">Yes</text>		</g>
+		<g id="shape8266" transform="translate(844.373,-4118.48)" class="Off-page reference">
+			
+			<desc>B</desc>
+			
+			
+			
+			<path d="M34.02 9810.99 A17.0079 17.0079 -180 1 0 0 9810.99 A17.0079 17.0079 -180 1 0 34.02 9810.99 Z" class="st9" />
+			<text x="14.83" y="9813.39" class="st10">B</text>		</g>
+		<g id="shape8267" transform="translate(783.428,-4128.4)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9820.91 L53.4 9820.91" class="st7" />
+			<rect x="24.9686" y="9816.11" width="11.0078" height="9.59985" class="st8" />
+			<text x="24.97" y="9823.31" class="st10">Yes</text>		</g>
+		<g id="shape8268" transform="translate(712.562,-4187.36)" class="Process">
+			
+			<desc>Ping Batching</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="13.43" y="9809.14" class="st10">Ping Batching</text>		</g>
+		<g id="shape8269" transform="translate(740.909,-4156.75)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9804.93" class="st7" />
+			<rect x="2.39524" y="9807.89" width="9.38287" height="9.59985" class="st8" />
+			<text x="2.4" y="9815.09" class="st10">No</text>		</g>
+		<g id="shape8270" transform="translate(431.351,-6703.68)" class="On-page reference">
+			
+			<desc>B</desc>
+			
+			
+			
+			<path d="M0 9809.75 A18.2476 18.2476 0 0 1 36.5 9809.75 A18.2476 18.2476 0 1 1 0 9809.75 Z" class="st9" />
+			<text x="15.53" y="9812.75" class="st5">B</text>		</g>
+		<g id="shape8271" transform="translate(406.051,-7041.16)">
+			
+			<desc>R &amp; D Tickets</desc>
+			
+			
+			<rect x="0" y="9771.31" width="757.276" height="56.6929" class="st1" />
+			<text x="4" y="9806.85" class="st2">R &amp; D Tickets</text>		</g>
+		<g id="shape8272" transform="translate(467.847,-6728.93)" class="Dynamic connector">
+			
+			<path d="M0 9835 L13.57 9835 L13.57 9835.17 L71.69 9835.17" class="st7" />
+		</g>
+		<g id="shape8273" transform="translate(547.074,-6700.49)" class="Process">
+			
+			<desc>Powder or Capsule or Tablet?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="4.87" y="9804.34" class="st10">Powder or Capsule <tspan x="18.96" dy="1.2em" class="st6">or Tablet?</tspan></text>		</g>
+		<g id="shape8274" transform="translate(582.507,-6743.01)" class="Dynamic connector">
+			
+			<desc>Capsule</desc>
+			
+			
+			<path d="M0 9828 L0 9764.79 L94.93 9764.79" class="st7" />
+			<rect x="6.9053" y="9759.99" width="25.449" height="9.59985" class="st8" />
+			<text x="6.91" y="9767.19" class="st10">Capsule</text>		</g>
+		<g id="shape8275" transform="translate(684.979,-6784.96)" class="Process">
+			
+			<desc>Has a fill wt test been completed?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="9.52" y="9804.34" class="st10">Has a fill wt test <tspan x="7.05" dy="1.2em" class="st6">been completed?</tspan></text>		</g>
+		<g id="shape8276" transform="translate(755.845,-6806.22)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9912.47 L59.5 9912.47" class="st7" />
+			<rect x="8.06819" y="9885.38" width="11.0078" height="9.59985" class="st8" />
+			<text x="8.07" y="9892.58" class="st10">Yes</text>		</g>
+		<g id="shape8277" transform="translate(822.885,-6700.49)" class="Process">
+			
+			<desc>Have SFP been completed?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="11.49" y="9804.34" class="st10">Have SFP been <tspan x="16.14" dy="1.2em" class="st6">completed?</tspan></text>		</g>
+		<g id="shape8278" transform="translate(893.751,-6728.84)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9835.09 L49.72 9835.09" class="st7" />
+			<rect x="23.1262" y="9830.29" width="11.0078" height="9.59985" class="st8" />
+			<text x="23.13" y="9837.49" class="st10">Yes</text>		</g>
+		<g id="shape8279" transform="translate(951.011,-6700.49)" class="Process">
+			
+			<desc>Review for pricing and TBD Codes</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="6.16" y="9804.34" class="st10">Review for pricing <tspan x="10.74" dy="1.2em" class="st6">and </tspan><tspan class="st16">TBD Codes</tspan></text>		</g>
+		<g id="shape8280" transform="translate(1021.88,-6714.66)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L46.32 9820.91" class="st7" />
+		</g>
+		<g id="shape8281" transform="translate(1075.74,-6707.58)" class="Start/End">
+			
+			<desc>Generate Client Docs</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="9.65" y="9811.43" class="st10">Generate<tspan class="st17">&#xa0;</tspan><tspan class="st16">Client </tspan><tspan x="27.49" dy="1.2em" class="st16">Docs</tspan></text>		</g>
+		<g id="shape8282" transform="translate(822.885,-6792.05)" class="Subprocess">
+			
+			<desc>Open Ticket</desc>
+			
+			
+			
+			
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828 Z" class="st18" />
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828" class="st19" />
+			<path d="M8.5 9828 L8.5 9793.02" class="st7" />
+			<path d="M62.36 9828 L62.36 9793.02" class="st7" />
+			<text x="15.98" y="9809.14" class="st10">Open Ticket</text>		</g>
+		<g id="shape8283" transform="translate(851.231,-6743.01)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9786.5" class="st7" />
+			<rect x="1.5828" y="9798.68" width="11.0078" height="9.59985" class="st8" />
+			<text x="1.58" y="9805.88" class="st10">Yes</text>		</g>
+		<g id="shape8284" transform="translate(684.979,-6875.81)" class="Subprocess">
+			
+			<desc>Open RD:FILL WEIGHT Ticket</desc>
+			
+			
+			
+			
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828 Z" class="st18" />
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828" class="st19" />
+			<path d="M8.5 9828 L8.5 9793.02" class="st7" />
+			<path d="M62.36 9828 L62.36 9793.02" class="st7" />
+			<text x="13.77" y="9804.34" class="st10">Open RD:FILL <tspan x="11.34" dy="1.2em" class="st6">WEIGHT Ticket</tspan></text>		</g>
+		<g id="shape8285" transform="translate(713.326,-6827.48)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9787.21" class="st7" />
+			<rect x="2.39524" y="9799.03" width="9.38287" height="9.59985" class="st8" />
+			<text x="2.4" y="9806.23" class="st10">No</text>		</g>
+		<g id="shape8286" transform="translate(685.972,-6700.49)" class="Subprocess">
+			
+			<desc>Open RD: Scoop Test Ticket</desc>
+			
+			
+			
+			
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828 Z" class="st18" />
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828" class="st19" />
+			<path d="M8.5 9828 L8.5 9793.02" class="st7" />
+			<path d="M62.36 9828 L62.36 9793.02" class="st7" />
+			<text x="19.98" y="9799.54" class="st10">Open RD: <tspan x="17.84" dy="1.2em" class="st6">Scoop Test </tspan><tspan x="25.73" dy="1.2em" class="st6">Ticket</tspan></text>		</g>
+		<g id="shape8287" transform="translate(685.972,-6616.02)" class="Process">
+			
+			<desc>Has scoop test been complete?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="2.75" y="9804.34" class="st10">Has scoop test been <tspan x="18.24" dy="1.2em" class="st6">complete?</tspan></text>		</g>
+		<g id="shape8288" transform="translate(685.972,-6531.55)" class="Subprocess">
+			
+			<desc>Open RD:Pilot Ticket</desc>
+			
+			
+			
+			
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828 Z" class="st18" />
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828" class="st19" />
+			<path d="M8.5 9828 L8.5 9793.02" class="st7" />
+			<path d="M62.36 9828 L62.36 9793.02" class="st7" />
+			<text x="12.63" y="9804.34" class="st10">Open RD:Pilot <tspan x="25.73" dy="1.2em" class="st6">Ticket</tspan></text>		</g>
+		<g id="shape8289" transform="translate(685.972,-6447.07)" class="Process">
+			
+			<desc>Has a pilot ticket been completed?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="8.35" y="9804.34" class="st10">Has a pilot ticket <tspan x="7.05" dy="1.2em" class="st6">been completed?</tspan></text>		</g>
+		<g id="shape8290" transform="translate(714.319,-6658.54)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9793.59" class="st7" />
+			<rect x="2.39524" y="9802.22" width="9.38287" height="9.59985" class="st8" />
+			<text x="2.4" y="9809.42" class="st10">No</text>		</g>
+		<g id="shape8291" transform="translate(714.319,-6489.59)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9793.59" class="st7" />
+			<rect x="2.39524" y="9802.22" width="9.38287" height="9.59985" class="st8" />
+			<text x="2.4" y="9809.42" class="st10">No</text>		</g>
+		<g id="shape8292" transform="translate(582.507,-6700.49)" class="Dynamic connector">
+			
+			<desc>Powder</desc>
+			
+			
+			<path d="M0 9828 L0 9891.21 L95.93 9891.21" class="st7" />
+			<rect x="54.151" y="9885.85" width="25.0428" height="9.59985" class="st8" />
+			<text x="54.15" y="9893.05" class="st10">Powder</text>		</g>
+		<g id="shape8293" transform="translate(582.507,-6700.49)" class="Dynamic connector">
+			
+			<desc>Tablet</desc>
+			
+			
+			<path d="M0 9828 L0 10060.16 L95.93 10060.16" class="st7" />
+			<rect x="49.6735" y="10056.3" width="20.4294" height="9.59985" class="st8" />
+			<text x="49.67" y="10063.55" class="st10">Tablet</text>		</g>
+		<g id="shape8294" transform="translate(756.838,-6637.28)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9828 L101.48 9828 L101.48 9772.33" class="st7" />
+			<rect x="25.0596" y="9824.05" width="11.0078" height="9.59985" class="st8" />
+			<text x="25.06" y="9831.25" class="st10">Yes</text>		</g>
+		<g id="shape8295" transform="translate(756.838,-6468.33)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9828 L101.48 9828 L101.48 9603.38" class="st7" />
+			<rect x="41.7276" y="9822.78" width="11.0078" height="9.59985" class="st8" />
+			<text x="41.73" y="9829.97" class="st10">Yes</text>		</g>
+		<g id="shape8296" transform="translate(416.255,-8852.98)" class="Start/End">
+			
+			<desc>From Batching</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="5.97" y="9816.83" class="st5">From Batching</text>		</g>
+		<g id="shape8297" transform="translate(406.051,-9129.36)">
+			
+			<desc>Batch Monitoring</desc>
+			
+			
+			<rect x="0" y="9771.31" width="1147.34" height="56.6929" class="st1" />
+			<text x="4" y="9806.85" class="st2">Batch Monitoring</text>		</g>
+		<g id="shape8298" transform="translate(487.121,-8874.24)" class="Dynamic connector">
+			
+			<path d="M0 9835.09 L52.41 9835.09" class="st7" />
+		</g>
+		<g id="shape8299" transform="translate(547.074,-8845.89)" class="Process">
+			
+			<desc>Confirm batch including qty, FC, FPC, label etc.</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="12.31" y="9799.54" class="st10">Confirm batch <tspan x="7.67" dy="1.2em" class="st6">including qty, FC, </tspan><tspan x="12.71" dy="1.2em" class="st6">FPC, label etc.</tspan></text>		</g>
+		<g id="shape8300" transform="translate(617.94,-8860.06)" class="Dynamic connector">
+			
+			<desc>No Issues</desc>
+			
+			
+			<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+			<rect x="18.1311" y="9816.11" width="30.7774" height="9.59985" class="st8" />
+			<text x="18.13" y="9823.31" class="st10">No Issues</text>		</g>
+		<g id="shape8301" transform="translate(684.979,-8845.89)" class="Process">
+			
+			<desc>Monitor RMs and PS</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="2.15" y="9809.14" class="st10">Monitor RMs and PS</text>		</g>
+		<g id="shape8302" transform="translate(720.412,-8888.41)" class="Dynamic connector">
+			
+			<path d="M0 9828 L0 9790.3 L94.93 9790.3" class="st7" />
+		</g>
+		<g id="shape8303" transform="translate(822.885,-8904.85)" class="Process">
+			
+			<desc>RMs or PS Late</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="11.23" y="9809.14" class="st10">RMs or PS Late</text>		</g>
+		<g id="shape8304" transform="translate(893.751,-8926.11)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9886.96 L49.72 9886.96" class="st7" />
+			<rect x="8.88062" y="9867.74" width="9.38287" height="9.59985" class="st8" />
+			<text x="8.88" y="9874.94" class="st10">No</text>		</g>
+		<g id="shape8305" transform="translate(951.011,-8845.89)" class="Process">
+			
+			<desc>Batch behind schedule</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="13.99" y="9804.34" class="st10">Batch behind <tspan x="20.97" dy="1.2em" class="st6">schedule</tspan></text>		</g>
+		<g id="shape8306" transform="translate(1021.88,-8860.06)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9820.91 L34.41 9820.91" class="st7" />
+			<rect x="16.2854" y="9816.11" width="9.38287" height="9.59985" class="st8" />
+			<text x="16.29" y="9823.31" class="st10">No</text>		</g>
+		<g id="shape8307" transform="translate(1063.83,-8845.89)" class="Process">
+			
+			<desc>Batch Complete</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="9.53" y="9809.14" class="st10">Batch Complete</text>		</g>
+		<g id="shape8308" transform="translate(1134.7,-8874.24)" class="Dynamic connector">
+			
+			<path d="M0 9835.09 L65.03 9835.09" class="st7" />
+		</g>
+		<g id="shape8309" transform="translate(1207.26,-8845.89)" class="Process">
+			
+			<desc>Packing slip marked “Released”</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="3.31" y="9804.34" class="st10">Packing slip marked <tspan x="17.44" dy="1.2em" class="st6">“</tspan>Released”</text>		</g>
+		<g id="shape8310" transform="translate(1278.13,-8860.06)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L49.72 9820.91" class="st7" />
+		</g>
+		<g id="shape8311" transform="translate(1335.39,-8845.89)" class="Process">
+			
+			<desc>Shipping details known</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="9.82" y="9804.34" class="st10">Shipping details <tspan x="24.44" dy="1.2em" class="st6">known</tspan></text>		</g>
+		<g id="shape8312" transform="translate(1467.77,-8852.98)" class="Start/End">
+			
+			<desc>Order Finished!</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="10.16" y="9816.23" class="st10">Order Finished!</text>		</g>
+		<g id="shape8313" transform="translate(575.42,-8888.41)" class="Dynamic connector">
+			
+			<desc>Issues</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9779.41" class="st7" />
+			<rect x="-2.70626" y="9795.14" width="19.5859" height="9.59985" class="st8" />
+			<text x="-2.71" y="9802.34" class="st10">Issues</text>		</g>
+		<g id="shape8314" transform="translate(1406.26,-8860.06)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L53.97 9820.91" class="st7" />
+		</g>
+		<g id="shape8315" transform="translate(822.885,-8794.3)" class="Process">
+			
+			<desc>CSMs Late</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="18.65" y="9809.14" class="st10">CSMs Late</text>		</g>
+		<g id="shape8316" transform="translate(720.412,-8845.89)" class="Dynamic connector">
+			
+			<path d="M0 9828 L0 9858.33 L94.93 9858.33" class="st7" />
+		</g>
+		<g id="shape8317" transform="translate(893.751,-8815.56)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9828 L92.69 9828 L92.69 9805.21" class="st7" />
+			<rect x="56.8205" y="9823.2" width="9.38287" height="9.59985" class="st8" />
+			<text x="56.82" y="9830.4" class="st10">No</text>		</g>
+		<g id="shape8318" transform="translate(822.885,-8720.6)" class="Process">
+			
+			<desc>Email Client</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="16.23" y="9809.14" class="st10">Email Client</text>		</g>
+		<g id="shape8319" transform="translate(851.231,-8794.3)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9851.64" class="st7" />
+			<rect x="1.5828" y="9838.79" width="11.0078" height="9.59985" class="st8" />
+			<text x="1.58" y="9845.99" class="st10">Yes</text>		</g>
+		<g id="shape8320" transform="translate(822.885,-8974.3)" class="Process">
+			
+			<desc>Review Picking/RM ETA</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="4.26" y="9804.34" class="st10">Review Picking/RM <tspan x="29.22" dy="1.2em" class="st6">ETA</tspan></text>		</g>
+		<g id="shape8321" transform="translate(822.885,-9043.75)" class="Process">
+			
+			<desc>Ping Purchasing</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="9.82" y="9809.14" class="st10">Ping Purchasing</text>		</g>
+		<g id="shape8322" transform="translate(851.231,-8947.37)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9808.61" class="st7" />
+			<rect x="1.5828" y="9809.74" width="11.0078" height="9.59985" class="st8" />
+			<text x="1.58" y="9816.94" class="st10">Yes</text>		</g>
+		<g id="shape8323" transform="translate(851.231,-9016.82)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9808.61" class="st7" />
+		</g>
+		<g id="shape8324" transform="translate(951.011,-8974.3)" class="Process">
+			
+			<desc>Ping Operations</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="9.48" y="9809.14" class="st10">Ping Operations</text>		</g>
+		<g id="shape8325" transform="translate(1049.66,-8974.3)" class="Process">
+			
+			<desc>Alert Sales</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="18.35" y="9809.14" class="st10">Alert Sales</text>		</g>
+		<g id="shape8326" transform="translate(979.357,-8888.41)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9749.65" class="st7" />
+			<rect x="1.5828" y="9780.26" width="11.0078" height="9.59985" class="st8" />
+			<text x="1.58" y="9787.46" class="st10">Yes</text>		</g>
+		<g id="shape8327" transform="translate(1335.39,-8746.11)" class="Process">
+			
+			<desc>Email Client</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="16.23" y="9809.14" class="st10">Email Client</text>		</g>
+		<g id="shape8328" transform="translate(1363.74,-8845.89)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9877.72" class="st7" />
+		</g>
+		<g id="shape8329" transform="translate(972.837,-8733.69)" class="Process">
+			
+			<desc>2 Weeks to due date</desc>
+			
+			
+			
+			
+			<rect x="0" y="9798.58" width="49.0401" height="29.4241" class="st9" />
+			<text x="5.98" y="9810.89" class="st20">2 Weeks to <tspan x="9.79" dy="1.2em" class="st6">due date</tspan></text>		</g>
+		<g id="shape8330" transform="translate(1100.96,-8733.69)" class="Process">
+			
+			<desc>Target Due Date</desc>
+			
+			
+			
+			
+			<rect x="0" y="9798.58" width="49.0401" height="29.4241" class="st9" />
+			<text x="6.26" y="9810.89" class="st20">Target Due <tspan x="16.62" dy="1.2em" class="st6">Date</tspan></text>		</g>
+		<g id="shape8331" transform="translate(706.805,-8733.69)" class="Process">
+			
+			<desc>3 weeks to due date</desc>
+			
+			
+			
+			
+			<rect x="0" y="9798.58" width="49.0401" height="29.4241" class="st9" />
+			<text x="6.62" y="9810.89" class="st20">3 weeks to <tspan x="9.79" dy="1.2em" class="st6">due date</tspan></text>		</g>
+		<g id="shape8332" transform="translate(637.853,-8733.69)" class="Process">
+			
+			<desc>4 weeks to due date</desc>
+			
+			
+			
+			
+			<rect x="0" y="9798.58" width="49.0401" height="29.4241" class="st9" />
+			<text x="6.62" y="9810.89" class="st20">4 weeks to <tspan x="9.79" dy="1.2em" class="st6">due date</tspan></text>		</g>
+		<g id="shape8333" transform="translate(568.9,-8733.69)" class="Process">
+			
+			<desc>6 weeks to due date</desc>
+			
+			
+			
+			
+			<rect x="0" y="9798.58" width="49.0401" height="29.4241" class="st9" />
+			<text x="6.62" y="9810.89" class="st20">6 weeks to <tspan x="9.79" dy="1.2em" class="st6">due date</tspan></text>		</g>
+		<g id="shape8334" transform="translate(440.208,-8675.24)" class="Off-page reference">
+			
+			<desc>E1</desc>
+			
+			
+			
+			<path d="M34.02 9810.99 A17.0079 17.0079 -180 1 0 0 9810.99 A17.0079 17.0079 -180 1 0 34.02 9810.99 Z" class="st9" />
+			<text x="13.03" y="9813.39" class="st10">E1</text>		</g>
+		<g id="shape8335" transform="translate(576.412,-8675.24)" class="Off-page reference">
+			
+			<desc>C</desc>
+			
+			
+			
+			<path d="M34.02 9810.99 A17.0079 17.0079 -180 1 0 0 9810.99 A17.0079 17.0079 -180 1 0 34.02 9810.99 Z" class="st9" />
+			<text x="14.87" y="9813.39" class="st10">C</text>		</g>
+		<g id="shape8336" transform="translate(652.877,-8675.24)" class="Off-page reference">
+			
+			<desc>D</desc>
+			
+			
+			
+			<path d="M34.02 9810.99 A17.0079 17.0079 -180 1 0 0 9810.99 A17.0079 17.0079 -180 1 0 34.02 9810.99 Z" class="st9" />
+			<text x="14.55" y="9813.39" class="st10">D</text>		</g>
+		<g id="shape8337" transform="translate(1029.81,-8676.86)" class="Off-page reference">
+			
+			<desc>E2</desc>
+			
+			
+			
+			<path d="M34.02 9810.99 A17.0079 17.0079 -180 1 0 0 9810.99 A17.0079 17.0079 -180 1 0 34.02 9810.99 Z" class="st9" />
+			<text x="13.03" y="9813.39" class="st10">E2</text>		</g>
+		<g id="shape8338" transform="translate(1659.11,-8565.69)">
+			
+			<desc>A – Batch confirmation process and review B – R&amp;D tickets C –...</desc>
+			
+			
+			
+			<rect x="0" y="9605.06" width="240.945" height="222.945" class="st21" />
+			<text x="4" y="9655.33" class="st22">A – Batch confirmation process and review<tspan x="4" dy="1.2em" class="st6">B </tspan>– R&amp;D tickets<tspan x="4" dy="1.2em" class="st6">C </tspan>– Label PDF review/Customer tickets<tspan x="4" dy="1.2em" class="st6">D </tspan>– CSM/Label process<tspan x="4" dy="1.2em" class="st6">E1 </tspan>– Regulatory tickets/testing PRIOR to order<tspan x="4" dy="1.2em" class="st6">E2 </tspan>– Regulatory tickets/testing at FINISHED <tspan x="4" dy="1.2em" class="st6">GOODS level</tspan><tspan x="4" dy="1.2em" class="st6">F</tspan>- Label Correction Notice Process<tspan x="4" dy="1.2em" class="st6">G</tspan>- Change request process<tspan x="4" dy="1.2em" class="st6">H </tspan>– Cancellation process</text>		</g>
+		<g id="shape8339" transform="translate(972.837,-8625.41)" class="On-page reference">
+			
+			<desc>G</desc>
+			
+			
+			
+			<path d="M0 9815.24 A12.7559 12.7559 0 0 1 25.51 9815.24 A12.7559 12.7559 0 1 1 0 9815.24 Z" class="st9" />
+			<text x="10.23" y="9817.64" class="st10">G</text>		</g>
+		<g id="shape8340" transform="translate(972.837,-8578.64)" class="On-page reference">
+			
+			<desc>H</desc>
+			
+			
+			
+			<path d="M0 9815.24 A12.7559 12.7559 0 0 1 25.51 9815.24 A12.7559 12.7559 0 1 1 0 9815.24 Z" class="st9" />
+			<text x="10.26" y="9817.64" class="st10">H</text>		</g>
+		<g id="shape8341" transform="translate(972.837,-8642.89)" class="Dynamic connector">
+			
+			<path d="M0 9832.72 L-566.79 9832.72 L-566.79 9837.45" class="st19" />
+		</g>
+		<g id="shape8342" transform="translate(998.349,-8635.45)" class="Dynamic connector">
+			
+			<path d="M0 9825.28 L547.37 9825.28 L547.37 9816.55" class="st19" />
+		</g>
+		<g id="shape8343" transform="translate(998.349,-8590.8)" class="Dynamic connector">
+			
+			<path d="M0 9827.4 L547.37 9827.4 L547.37 9814.42" class="st19" />
+		</g>
+		<g id="shape8344" transform="translate(972.837,-8598.24)" class="Dynamic connector">
+			
+			<path d="M0 9834.85 L-566.79 9834.85 L-566.79 9835.33" class="st19" />
+		</g>
+		<g id="shape8345" transform="translate(986.444,-8888.41)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9828 L0 9814.43 L98.65 9814.43 L98.65 9749.65" class="st7" />
+			<rect x="73.1923" y="9809.63" width="11.0078" height="9.59985" class="st8" />
+			<text x="73.19" y="9816.83" class="st10">Yes</text>		</g>
+		<g id="shape8346" transform="translate(547.074,-8944.54)" class="Subprocess">
+			
+			<desc>AM A1</desc>
+			
+			
+			
+			
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828 Z" class="st18" />
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828" class="st19" />
+			<path d="M8.5 9828 L8.5 9793.02" class="st7" />
+			<path d="M62.36 9828 L62.36 9793.02" class="st7" />
+			<text x="24.45" y="9809.14" class="st10">AM A1</text>		</g>
+		<g id="shape8347" transform="translate(417.673,-8063.95)" class="Start/End">
+			
+			<desc>PO Submitted Work order/email</desc>
+			
+			
+			
+			
+			<path d="M17.72 9828 L65.91 9828 A17.7165 17.7165 -180 0 0 65.91 9792.57 L17.72 9792.57 A17.7165 17.7165 -180 1 0 17.72        9828 Z" class="st9" />
+			<text x="13.63" y="9807.28" class="st5">PO Submitted <tspan x="5.24" dy="1.2em" class="st6">Work order/email</tspan></text>		</g>
+		<g id="shape8348" transform="translate(406.051,-8393.52)">
+			
+			<desc>Order Processing and Review</desc>
+			
+			
+			<rect x="0" y="9771.31" width="1005.2" height="56.6929" class="st1" />
+			<text x="4" y="9806.85" class="st2">Order Processing and Review</text>		</g>
+		<g id="shape8349" transform="translate(501.295,-8074.58)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L17.69 9820.91" class="st7" />
+		</g>
+		<g id="shape8350" transform="translate(526.523,-8060.41)" class="Process">
+			
+			<desc>Is Client New?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="6.6" y="9809.74" class="st5">Is Client New?</text>		</g>
+		<g id="shape8351" transform="translate(597.389,-8074.58)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+			<rect x="27.6554" y="9814.91" width="11.7285" height="12.0001" class="st8" />
+			<text x="27.66" y="9823.91" class="st5">No</text>		</g>
+		<g id="shape8352" transform="translate(664.429,-8060.41)" class="Process">
+			
+			<desc>Finance Approved?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="19.74" y="9803.74" class="st5">Finance <tspan x="13.22" dy="1.2em" class="st6">Approved?</tspan></text>		</g>
+		<g id="shape8353" transform="translate(735.295,-8074.58)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9820.91 L21.37 9820.91" class="st7" />
+			<rect x="7.5769" y="9814.91" width="13.7598" height="12.0001" class="st8" />
+			<text x="7.58" y="9823.91" class="st5">Yes</text>		</g>
+		<g id="shape8354" transform="translate(764.209,-8060.41)" class="Process">
+			
+			<desc>Is product new?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="2.9" y="9809.74" class="st5">Is product new?</text>		</g>
+		
+			<g id="shape8355" transform="translate(862.93,-8060.41)" class="Document">
+				
+				<desc>Generate RE-ORDER DOCS</desc>
+				
+				
+				
+				
+				<path d="M0 9822.69 L0 9785.48 L70.87 9785.48 L70.87 9822.69 A32.185 32.185 -180 0 0 35.43 9822.69 A32.185 32.185         0 0 1 -0 9822.69 Z" class="st9" />
+				<text x="8.46" y="9798.43" class="st5">Generate <tspan class="st16">RE</tspan><tspan class="st16">-</tspan><tspan x="8.16" dy="1.2em" class="st16">ORDER DOCS</tspan></text>			</g>
+		
+		
+			<g id="shape8356" transform="translate(1068.93,-8060.19)" class="Subprocess">
+				
+				<desc>Review / Approve PO</desc>
+				
+				
+				
+				
+				<path d="M0 9828 L70.87 9828 L70.87 9785.7 L0 9785.7 L0 9828 Z" class="st18" />
+				<path d="M0 9828 L70.87 9828 L70.87 9785.7 L0 9785.7 L0 9828" class="st19" />
+				<path d="M8.5 9828 L8.5 9793.24" class="st7" />
+				<path d="M62.36 9828 L62.36 9793.24" class="st7" />
+				<text x="17.7" y="9803.85" class="st5">Review / <tspan x="11.14" dy="1.2em" class="st6">Approve PO</tspan></text>			</g>
+		
+		<g id="shape8357" transform="translate(1139.8,-8088.38)" class="Dynamic connector">
+			
+			<path d="M0 9835.03 L6.79 9835.03 L6.79 9835.14 L14.08 9835.14" class="st7" />
+		</g>
+		<g id="shape8358" transform="translate(526.523,-8141.34)" class="Process">
+			
+			<desc>Security deposit/on board?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="19.08" y="9797.74" class="st5">Security <tspan x="13.08" dy="1.2em" class="st6">deposit/on </tspan><tspan x="21.09" dy="1.2em" class="st6">board?</tspan></text>		</g>
+		<g id="shape8359" transform="translate(526.523,-8222.27)" class="Process">
+			
+			<desc>Hold for Approval</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="18.87" y="9803.74" class="st5">Hold for <tspan x="17.11" dy="1.2em" class="st6">Approval</tspan></text>		</g>
+		<g id="shape8360" transform="translate(1342.44,-8217.24)" class="On-page reference">
+			
+			<desc>AM.A1.B</desc>
+			
+			
+			
+			<path d="M0 9804.22 A23.7755 23.7755 0 0 1 47.55 9804.22 A23.7755 23.7755 0 1 1 0 9804.22 Z" class="st9" />
+			<text x="5.94" y="9807.22" class="st5">AM.A1.B</text>		</g>
+		<g id="shape8361" transform="translate(664.429,-8141.34)" class="Process">
+			
+			<desc>Hold for Approval</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="18.87" y="9803.74" class="st5">Hold for <tspan x="17.11" dy="1.2em" class="st6">Approval</tspan></text>		</g>
+		<g id="shape8362" transform="translate(692.775,-8102.93)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9797.13" class="st7" />
+			<rect x="1.22233" y="9802.8" width="11.7285" height="12.0001" class="st8" />
+			<text x="1.22" y="9811.8" class="st5">No</text>		</g>
+		<g id="shape8363" transform="translate(554.87,-8102.93)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9797.13" class="st7" />
+			<rect x="0.20664" y="9802.8" width="13.7598" height="12.0001" class="st8" />
+			<text x="0.21" y="9811.8" class="st5">Yes</text>		</g>
+		<g id="shape8364" transform="translate(554.87,-8183.86)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9797.13" class="st7" />
+			<rect x="1.22233" y="9802.8" width="11.7285" height="12.0001" class="st8" />
+			<text x="1.22" y="9811.8" class="st5">No</text>		</g>
+		<g id="shape8365" transform="translate(597.389,-8162.6)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9828 L44.22 9828 L44.22 9908.93 L59.5 9908.93" class="st7" />
+			<rect x="37.3412" y="9851.76" width="13.7598" height="12.0001" class="st8" />
+			<text x="37.34" y="9860.76" class="st5">Yes</text>		</g>
+		<g id="shape8366" transform="translate(792.555,-8102.93)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9801.63" class="st7" />
+			<rect x="0.20664" y="9805.05" width="13.7598" height="12.0001" class="st8" />
+			<text x="0.21" y="9814.05" class="st5">Yes</text>		</g>
+		<g id="shape8367" transform="translate(764.209,-8136.84)" class="Process">
+			
+			<desc>R&amp;D Tickets needed?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9776.48" width="70.8661" height="51.5196" class="st3" />
+			<text x="11.01" y="9799.24" class="st5">R&amp;D Tickets <tspan x="17.77" dy="1.2em" class="st6">needed? </tspan> </text>		</g>
+		<g id="shape8368" transform="translate(771.295,-8222.27)" class="Subprocess">
+			
+			<desc>AM.B1</desc>
+			
+			
+			
+			
+			<path d="M0 9828 L56.69 9828 L56.69 9785.48 L0 9785.48 L0 9828 Z" class="st18" />
+			<path d="M0 9828 L56.69 9828 L56.69 9785.48 L0 9785.48 L0 9828" class="st19" />
+			<path d="M8.5 9828 L8.5 9793.02" class="st7" />
+			<path d="M48.19 9828 L48.19 9793.02" class="st7" />
+			<text x="14.66" y="9809.74" class="st5">AM.B1</text>		</g>
+		<g id="shape8369" transform="translate(835.075,-8155.51)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9820.91 L20.31 9820.91" class="st7" />
+			<rect x="8.06315" y="9814.91" width="11.7285" height="12.0001" class="st8" />
+			<text x="8.06" y="9823.91" class="st5">No</text>		</g>
+		
+			<g id="shape8370" transform="translate(862.93,-8141.34)" class="Document">
+				
+				<desc>Generate NEW CLIENT DOCS</desc>
+				
+				
+				
+				
+				<path d="M0 9822.69 L0 9785.48 L70.87 9785.48 L70.87 9822.69 A32.185 32.185 -180 0 0 35.43 9822.69 A32.185 32.185         0 0 1 -0 9822.69 Z" class="st9" />
+				<text x="4.98" y="9798.43" class="st5">Generate<tspan class="st16">&#xa0;</tspan><tspan class="st16">NEW </tspan><tspan x="8.46" dy="1.2em" class="st16">CLIENT DOCS</tspan></text>			</g>
+		
+		
+			<g id="shape8371" transform="translate(965.931,-8060.41)" class="Process">
+				
+				<desc>Did Client Sign Documents?</desc>
+				
+				
+				
+				
+				<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+				<text x="6.15" y="9803.74" class="st5">Did Client Sign <tspan x="9.92" dy="1.2em" class="st6">Documents?</tspan></text>			</g>
+		
+		<g id="shape8372" transform="translate(933.796,-8162.6)" class="Dynamic connector">
+			
+			<path d="M0 9828 L67.57 9828 L67.57 9880.13" class="st7" />
+		</g>
+		<g id="shape8373" transform="translate(1036.8,-8088.6)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9834.92 L13.57 9834.92 L13.57 9835.25 L24.6 9835.25" class="st7" />
+			<rect x="9.02543" y="9829.25" width="13.7598" height="12.0001" class="st8" />
+			<text x="9.03" y="9838.25" class="st5">Yes</text>		</g>
+		<g id="shape8374" transform="translate(965.931,-7979.47)" class="Process">
+			
+			<desc>Hold for Approval</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="18.87" y="9803.74" class="st5">Hold for <tspan x="17.11" dy="1.2em" class="st6">Approval</tspan></text>		</g>
+		<g id="shape8375" transform="translate(792.555,-8188.36)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9801.63" class="st7" />
+			<rect x="0.20664" y="9805.05" width="13.7598" height="12.0001" class="st8" />
+			<text x="0.21" y="9814.05" class="st5">Yes</text>		</g>
+		<g id="shape8376" transform="translate(827.988,-8243.53)" class="Dynamic connector">
+			
+			<path d="M0 9828 L70.37 9828 L70.37 9880.13" class="st7" />
+		</g>
+		<g id="shape8377" transform="translate(424.051,-7850.15)" class="Document">
+			
+			<desc>CLIENT NEW ORDER DOCS 1. FPS (Finished Product Spec) 2. SFP (...</desc>
+			
+			
+			
+			
+			<path d="M0 9819.5 L0 9674.93 L102.05 9674.93 L102.05 9819.5 A42.5197 42.5197 -180 0 0 51.02 9819.5 A42.5197 42.5197        0 0 1 -0 9819.5 Z" class="st9" />
+			<text x="2" y="9685.96" class="st23"><tspan class="st24">CLIENT NEW ORDER </tspan><tspan x="2" dy="1.2em" class="st24">DOCS</tspan><tspan x="2" dy="2.4em" class="st25">1. FPS (Finished Product </tspan><tspan x="2" dy="1.2em" class="st25">Spec)</tspan><tspan x="2" dy="1.2em" class="st25">2. SFP (service facts </tspan><tspan x="2" dy="1.2em" class="st25">panel)</tspan><tspan x="2" dy="1.2em" class="st25">3. Expiration Date/</tspan><tspan x="2" dy="1.2em" class="st25">Stability Waiver</tspan><tspan x="2" dy="1.2em" class="st25">4. Customer Supplied </tspan><tspan x="2" dy="1.2em" class="st25">Materials Form</tspan></text>		</g>
+		<g id="shape8378" transform="translate(1161.42,-8059.98)" class="Subprocess">
+			
+			<desc>Review /Approve PO</desc>
+			
+			
+			
+			
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828 Z" class="st26" />
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828" class="st19" />
+			<path d="M8.5 9828 L8.5 9793.02" class="st7" />
+			<path d="M62.36 9828 L62.36 9793.02" class="st7" />
+			<text x="17.7" y="9803.74" class="st5">Review /<tspan x="11.14" dy="1.2em" class="st6">Approve PO</tspan></text>		</g>
+		<g id="shape8379" transform="translate(1246.1,-8059.98)" class="Subprocess">
+			
+			<desc>Review /Approve PO</desc>
+			
+			
+			
+			
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828 Z" class="st27" />
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828" class="st19" />
+			<path d="M8.5 9828 L8.5 9793.02" class="st7" />
+			<path d="M62.36 9828 L62.36 9793.02" class="st7" />
+			<text x="17.7" y="9803.74" class="st5">Review /<tspan x="11.14" dy="1.2em" class="st6">Approve PO</tspan></text>		</g>
+		<g id="shape8380" transform="translate(1232.1,-8074.15)" class="Dynamic connector">
+			
+			<path d="M0.18 9820.91 L6.45 9820.91" class="st7" />
+		</g>
+		<g id="shape8381" transform="translate(994.278,-8060.41)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9858.88" class="st7" />
+			<rect x="1.22233" y="9841.21" width="11.7285" height="12.0001" class="st8" />
+			<text x="1.22" y="9850.21" class="st5">No</text>		</g>
+		<g id="shape8382" transform="translate(933.796,-8074.58)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L24.6 9820.91" class="st7" />
+		</g>
+		<g id="shape8383" transform="translate(835.075,-8074.58)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L20.31 9820.91" class="st7" />
+		</g>
+		<g id="shape8384" transform="translate(406.051,-7614.23)">
+			
+			<desc>Onboarding Process</desc>
+			
+			
+			<rect x="0" y="9757.13" width="761.315" height="70.8661" class="st1" />
+			<text x="4" y="9799.77" class="st2">Onboarding Process</text>		</g>
+		<g id="shape8385" transform="translate(672.37,-7307.92)" class="Process">
+			
+			<desc>Is RDSSF signed?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9776.98" width="83.9724" height="51.0236" class="st3" />
+			<text x="14.8" y="9804.89" class="st10">Is <tspan class="st16">RDSSF</tspan> signed?</text>		</g>
+		<g id="shape8386" transform="translate(756.342,-7326.34)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9820.91 L49.15 9820.91" class="st7" />
+			<rect x="22.8426" y="9816.11" width="11.0078" height="9.59985" class="st8" />
+			<text x="22.84" y="9823.31" class="st10">Yes</text>		</g>
+		<g id="shape8387" transform="translate(813.035,-7307.92)" class="Process">
+			
+			<desc>Email template in Docusign</desc>
+			
+			
+			
+			
+			<rect x="0" y="9776.98" width="85.0394" height="51.0236" class="st3" />
+			<text x="14" y="9800.09" class="st10">Email template in <tspan x="27.41" dy="1.2em" class="st17">Docusign</tspan></text>		</g>
+		<g id="shape8388" transform="translate(898.074,-7326.38)" class="Dynamic connector">
+			
+			<path d="M0 9820.95 L13.57 9820.95 L13.57 9820.88 L36.53 9820.88" class="st7" />
+		</g>
+		<g id="shape8389" transform="translate(942.146,-7306.5)" class="Process">
+			
+			<desc>Has client signed all documents?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9774" width="83.9724" height="54" class="st3" />
+			<text x="10.03" y="9798.6" class="st10">Has client signed all <tspan x="21.94" dy="1.2em" class="st6">documents?</tspan></text>		</g>
+		<g id="shape8390" transform="translate(1026.12,-7326.42)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9820.91 L55.47 9820.91" class="st7" />
+			<rect x="26.002" y="9816.11" width="11.0078" height="9.59985" class="st8" />
+			<text x="26" y="9823.31" class="st10">Yes</text>		</g>
+		<g id="shape8391" transform="translate(1089.13,-7307.99)" class="Subprocess">
+			
+			<desc>Pass info to Finance</desc>
+			
+			
+			
+			
+			<path d="M0 9828 L78.24 9828 L78.24 9776.98 L0 9776.98 L0 9828 Z" class="st18" />
+			<path d="M0 9828 L78.24 9828 L78.24 9776.98 L0 9776.98 L0 9828" class="st19" />
+			<path d="M8.5 9828 L8.5 9784.52" class="st7" />
+			<path d="M69.73 9828 L69.73 9784.52" class="st7" />
+			<text x="20.4" y="9800.09" class="st10">Pass info to <tspan x="26.56" dy="1.2em" class="st6">Finance</tspan></text>		</g>
+		<g id="shape8392" transform="translate(820.122,-7434.24)" class="Process">
+			
+			<desc>Has client committed to purchase?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9776.98" width="70.8661" height="51.0236" class="st3" />
+			<text x="19.6" y="9795.29" class="st10">Has client <tspan x="13.2" dy="1.2em" class="st6">committed to </tspan><tspan x="18.72" dy="1.2em" class="st6">purchase?</tspan></text>		</g>
+		<g id="shape8393" transform="translate(714.356,-7358.94)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9828 L0 9727.19 L98.23 9727.19" class="st7" />
+			<rect x="-2.21308" y="9722.39" width="9.38287" height="9.59985" class="st8" />
+			<text x="-2.21" y="9729.59" class="st10">No</text>		</g>
+		<g id="shape8394" transform="translate(948.132,-7431.26)" class="Process">
+			
+			<desc>Confirm need w/ Sales</desc>
+			
+			
+			
+			
+			<rect x="0" y="9774" width="72" height="54.0025" class="st3" />
+			<text x="8.53" y="9798.6" class="st10">Confirm need w/ <tspan x="27.77" dy="1.2em" class="st6">Sales</tspan></text>		</g>
+		<g id="shape8395" transform="translate(855.555,-7478.18)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9820.91 L0 9807.34 L128.58 9807.34 L128.58 9813.37" class="st7" />
+			<rect x="59.5972" y="9802.54" width="9.38287" height="9.59985" class="st8" />
+			<text x="59.6" y="9809.74" class="st10">No</text>		</g>
+		<g id="shape8396" transform="translate(848.468,-7434.24)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9895.76" class="st7" />
+			<rect x="1.5828" y="9860.85" width="11.0078" height="9.59985" class="st8" />
+			<text x="1.58" y="9868.05" class="st10">Yes</text>		</g>
+		<g id="shape8397" transform="translate(977.045,-7360.5)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9764.78" class="st7" />
+			<rect x="2.39524" y="9787.82" width="9.38287" height="9.59985" class="st8" />
+			<text x="2.4" y="9795.02" class="st10">No</text>		</g>
+		<g id="shape8398" transform="translate(530.638,-7307.92)" class="Process">
+			
+			<desc>Legal: Handle Client Provided Contracts (Manufacutirng/Qualit...</desc>
+			
+			
+			
+			
+			<rect x="0" y="9776.98" width="85.0394" height="51.0236" class="st3" />
+			<text x="10.33" y="9790.49" class="st10">Legal: Handle Client <tspan x="11.54" dy="1.2em" class="st6">Provided Contracts </tspan><tspan x="3.96" dy="1.2em" class="st6">(Manufacutirng/Quality </tspan><tspan x="21.54" dy="1.2em" class="st6">Agreements)</tspan></text>		</g>
+		<g id="shape8399" transform="translate(406.051,-7306.43)" class="Process.16">
+			
+			<desc>On Board Client</desc>
+			
+			
+			
+			
+			<rect x="0" y="9774" width="81" height="54" class="st9" />
+			<text x="11.64" y="9803.7" class="st28">On Board Client</text>		</g>
+		<g id="shape8400" transform="translate(615.677,-7326.34)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L49.15 9820.91" class="st7" />
+		</g>
+		<g id="shape8401" transform="translate(487.051,-7326.34)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L36.05 9820.91" class="st7" />
+		</g>
+		<g id="shape8402" transform="translate(1333.3,-8060.2)" class="Process">
+			
+			<desc>Create PO Goal / Sales Order (w/notes)</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="14.95" y="9797.74" class="st5">Create PO <tspan x="11.62" dy="1.2em" class="st6">Goal / Sales </tspan><tspan x="2.47" dy="1.2em" class="st6">Order (w/notes)</tspan></text>		</g>
+		<g id="shape8403" transform="translate(1361.64,-8141.2)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9858.94" class="st7" />
+		</g>
+		<g id="shape8404" transform="translate(1333.3,-8141.2)" class="Process">
+			
+			<desc>Update or corrections</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="14.9" y="9803.74" class="st5">Update or <tspan x="12.55" dy="1.2em" class="st6">corrections</tspan></text>		</g>
+		<g id="shape8405" transform="translate(1361.64,-8217.1)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9853.84" class="st7" />
+		</g>
+		<g id="shape8406" transform="translate(1316.96,-8074.26)" class="Dynamic connector">
+			
+			<path d="M0 9821.02 L6.79 9821.02 L6.79 9820.8 L8.79 9820.8" class="st7" />
+		</g>
+		<g id="shape8407" transform="translate(413.173,-9304.54)" class="Process">
+			
+			
+			
+			<rect x="0" y="9609.02" width="1488.19" height="218.976" class="st29" />
+		</g>
+		<g id="shape8408" transform="translate(513.041,-9363)">
+			
+			<desc>Accounts Management</desc>
+			
+			
+			<rect x="0" y="9706.11" width="1388.32" height="121.89" class="st30" />
+			<text x="214.11" y="9797.06" class="st31">Accounts Management</text>		</g>
+		<g id="shape1" transform="translate(438.604,-9319.59)">
+			
+			<rect x="0" y="9639.12" width="187.167" height="188.879" class="st30" />
+			<image x="0" y="9639.12" width="187.167" height="188.879" preserveAspectRatio="none" xlink:href="data:image/png;base64,       iVBORw0KGgoAAAANSUhEUgAAAEYAAABNCAYAAAAb6RJHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7D       AcdvqGQAAAi4SURBVHhe7ZwPxFdXGMczSSaTZJJJkplJJjOZTJKZTDKZmcwkSWYyk0kiSWYmMzMzSWYymUmSJMkkSSZJZjLJTDJJJsl6       9/2cznP3/M7v3D+/33t/ve+tPXx+zznPee6f87z3nnvv+fNOefDgweviuvhnWMbGxlLbZdkWiyldhcBcE2Mj4ETugF2Bn/siVMbrFuSK       6DugWCCWiZecrYw5At+URcL7sc9SVKdnpb0/V3Nuv8YinCoDU5Wv8S0LzFfR7xdnyyK/9SXHOym879/JsdNz+Vb4/Z7GiJRsdwzH2sB4       W1kaSfLZwMhnkMCsE38pfVcgtF/kDwvvZ4EJ7V2Gb4T3P42/uCfYXw+yHcLpfnRqm8rAiNrAOHbFbX7PlPnAbJV+WjplmvD+FpjvvN2D       E1GzyrRJa4GRb9PAbPH2MuT7ZAVGbFN+VgauGu9vgTkYy3qQfTqO9wROqEKbVOVrfMfd+Dp2CSQbGDFQ4yt849vTHpEXR3EKDZvtqEyb       kPdlvjwpqwyMGOiKkWaboQKjdFVgYuqhkBfHOGgRmDqq/DJlE9H47pCekyL7M+YLstmt9JPyvOf0INscHO1R2LaUXjECGfiKkZReMYKK       Nmp8hV0x5Y2vfrK3kkmaH0BqA6N9P5VDZYV/tBWBieU9PmIkgbkjGgfG52t8K2+lKEWDZ2nBS5b58+aLLUjcjnzZm+9t8QcoH3TkM+H9       Jy4wSjcJTBDyZpMuAqN0+CRwZUFLegIje7bxddv1fRLE8sr3mDvRqW3KbiUaxBc9svn8C853ZlIWkG2+86EOK8RKpctgm8JfzI/7mpvY       CyYiMJ2AH+7LUBmvW5DHOzBV+RrfssCsEjxlNjtbE+hDYbt3nc0zU8en3LNTto+kl4jcNty2fEbw9f2F2CB/PiHCrVQExrC86Rxpmc/H       dGXjKwZ5wWO7A3E7GufpmXLaDSVLz/lL8wXlPxRFzwIS07fEKpxuBWv7UnbFDPyCJ/i4C39ARCf+llSPj2w0yCY8jg/J9qM0L4VBlF8h       hT89gPYacEH2PdKcF+9JdPUuwGnSB0Yn+o60F17lUx8fGAsA8DlgdeT2wvZJyI2NXRe+r4Yv6+dIkwkbyYAqtEmaH0DavGKOCORM1Lyt       h7bAqAjMVJXdwCi9PdoIEMIVMlW62I/BD/dsNjCkfR7xfjVllW2MpGlgZovQNSJhqIehGWSjKPxk94HZL7bLRiBOxuPxErhQGv81GKLw       abJHvK900UHPz02RVqqPIcraanw3R/8bgr/+TtnI/+x8QmAERUFIeyT+O4pvrSNJuaXPiNns8GY0tE0rgZHf2ej/dbQtinm+sYo3YNLR       Dtxyh6XpNP8t2u6K4rGtNB+nqwX75RPjT6Vt+wOTPTAL5UcA8P9UvB2hJx8b7yDBV+kiMJKijVF+mrgSy/aZPQOB2h/9bmCwhglVaJOq       fI1vaeMb/WoDI78d0oWkx5PQ3phvWeNL2XGMkqPC7DNc2vw2xmPcwTAhgRFXxUpDdmM5frLRDoS/NFpQKYNL344Xbg+lfWAYRrF9fyzC       2Jnkc8E5LBW0rXtVtlxwe64RdtudwikbmOhQkLMZJWV1t1IZodtB+hVn67kCBEFjIgJle7FJ+zamDwlvtHRbsv3xtNzB02spTnTkjELK       ArNb+E6ktFPJbg8etZRdks69a/C2iv8FQaDmpfsF2a5Kfy98dwafFFtUdl7QH8XrAE+9gyJ0UeDEDkYhZbfSZIOg9oxUAj8hMIoUqtAm       aX4A6UpgsvBj96qSvQHymJTZkaSs84EZ98QhJGPvdmBUgVHNqOr8FRP6K6iM1y3IkxUYX576JvnuB4YKWaV8GkkqO0hZ5wPDq3moVMt0       PjAXRaiM1y1I5wPDR9n/gUngJ/R/lgWmKl/j2/nALKNCHiS1leElKet2YFQBZkJfSirVBp0PDP0Za5NKtUHnb6WzgmEDOo5Dpbyk+QGk       84EhICcUAAawLtcFxudrfDsfmDAyqEqtl5orTY9ZqKTHJLUbmbLOB2arQJhAtFgw1vvDQ9O4pPOBWSvsr35NzBPYGcakv3RY6XxgmJBj       gUH4qHxemjI6oVkaQwMdxPn1pJGkrPOBocc8TKBBomaogSumcFSeAXFmJx1VumcigInPK935wEB4GhlITLM6w26tFOaRMDi2TjAUwXAp       I4doZiutls5t1wnCjyph07hysGxnn2D0jqGGvp08jlhikwtEFfQPM/C9Sdu8Jpgnm51403UswWRgqf52IxVfHtPMbmLKFiOCLCk+JJhV       wKfGbsGIIm3TB2KDeE8wdYyn4ZuCyUBMYH5VLBGcC8OtrHxl6teEXKXhh4MLHtV9ganKP4IypoAwhMq5MeeFW5727GWlRxqwIqGDMYGm       ODG0J2czqspGCBN9mKI6kv8I4DPMKOiiMC31mGiywL0xPsOlGUYMRiFV+x22LBHmwLD8pm9y9DCkhm3piVTlJ2nZOaVLV5U0JTXM0k6L       GdhIw5MJ6bq8SdtlqV3CN17Zi2kjckZbmNkYJGefYH7VafVMkh6EnHGGdlpMDek4TEoc6rGeNQqWzhRrEb1wwDJ51GVNRNvzYpmrYyVZ       Y4QZjn0n5vMdKbutdPr/Y2rJGkE7Y3p6mFbuxfLoujLvM6qynM20s4eZnYOQNRra6XTBy1PXhc8KFp5m65kja0xgRiMfhV2XgZYaZo0l       8GUc1miPV+LlnZVhyxpIz2qVOrLGCujeZAyquH87BJ8Mjd9rssY6dBDWJNq8eyX/a+xMLD/JaNzdmjU2hLaHnr9RzchqHYmtiawlaxwQ       OrnosmDxRHEVTVJYVZurQx9Z4zjhfze8IU13Jp1fLPRkMQOzQxl2YaWZf6uml45FDjTsLNBiCj/dHwy/sF7xnDS9d6eUZtUIM8DYp61g       Q5O35Tos3bso6PUL/z7FyXmRO+c+ssZRohPm24UOdPpNuB1Jj6qbkv2y2JT+ZIZ0GHrO+SWMTfkXkojsYbwlFO4AAAAASUVORK5CYII=" />
+			<rect x="0" y="9639.12" width="187.167" height="188.879" class="st30" />
+		</g>
+		<g id="shape8409" transform="translate(399.933,-4636.91)" class="Start/End">
+			
+			<desc>From Receiving</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="4.29" y="9816.83" class="st5">From Receiving</text>		</g>
+		<g id="shape8410" transform="translate(405.036,-5000.6)">
+			
+			<desc>CSM/Label Process</desc>
+			
+			
+			<rect x="0" y="9771.31" width="757.276" height="56.6929" class="st11" />
+			<text x="4" y="9806.85" class="st2">CSM/Label Process</text>		</g>
+		<g id="shape8411" transform="translate(470.799,-4658.17)" class="Dynamic connector">
+			
+			<path d="M0 9835.09 L66.44 9835.09" class="st7" />
+		</g>
+		<g id="shape8412" transform="translate(544.783,-4629.83)" class="Process">
+			
+			<desc>Is CSM Code Correct?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="10.3" y="9803.74" class="st5">Is CSM Code <tspan x="18.05" dy="1.2em" class="st6">Correct?</tspan></text>		</g>
+		<g id="shape8413" transform="translate(615.649,-4644)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+			<rect x="26.6397" y="9814.91" width="13.7598" height="12.0001" class="st8" />
+			<text x="26.64" y="9823.91" class="st5">Yes</text>		</g>
+		<g id="shape8414" transform="translate(682.688,-4629.83)" class="Process">
+			
+			<desc>Confirm receiver and qty</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="19.09" y="9803.74" class="st5">Confirm <tspan x="2.49" dy="1.2em" class="st6">receiver and qty</tspan></text>		</g>
+		<g id="shape8415" transform="translate(753.554,-4644)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+		</g>
+		<g id="shape8416" transform="translate(820.594,-4629.83)" class="Process">
+			
+			<desc>Does CSM fit bottle on WO?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="9.43" y="9803.74" class="st5">Does CSM fit <tspan x="5.58" dy="1.2em" class="st6">bottle on WO?</tspan></text>		</g>
+		<g id="shape8417" transform="translate(891.46,-4658.17)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9835.09 L49.72 9835.09" class="st7" />
+			<rect x="21.75" y="9829.09" width="13.7598" height="12.0001" class="st8" />
+			<text x="21.75" y="9838.09" class="st5">Yes</text>		</g>
+		<g id="shape8418" transform="translate(948.72,-4629.83)" class="Process">
+			
+			<desc>Mark Received on batch</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="5.29" y="9803.74" class="st5">Mark Received <tspan x="17.6" dy="1.2em" class="st6">on batch</tspan></text>		</g>
+		<g id="shape8419" transform="translate(1019.59,-4644)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L59.22 9820.91" class="st7" />
+		</g>
+		<g id="shape8420" transform="translate(1086.34,-4629.83)" class="Start/End">
+			
+			<desc>File CSM and receiver in archive</desc>
+			
+			
+			
+			
+			<path d="M17.72 9828 L53.15 9828 A17.7165 21.2598 -180 0 0 53.15 9785.48 L17.72 9785.48 A17.7165 21.2598 -180 1 0 17.72        9828 Z" class="st9" />
+			<text x="9.2" y="9797.74" class="st5">File CSM and <tspan x="14.06" dy="1.2em" class="st6">receiver in </tspan><tspan x="20.66" dy="1.2em" class="st6">archive</tspan></text>		</g>
+		<g id="shape8421" transform="translate(544.783,-4721.39)" class="Process">
+			
+			<desc>Generate New CSM Code</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="5.96" y="9803.74" class="st5">Generate New <tspan x="14.65" dy="1.2em" class="st6">CSM Code</tspan></text>		</g>
+		<g id="shape8422" transform="translate(573.129,-4672.35)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9786.5" class="st7" />
+			<rect x="1.22233" y="9797.48" width="11.7285" height="12.0001" class="st8" />
+			<text x="1.22" y="9806.48" class="st5">No</text>		</g>
+		<g id="shape8423" transform="translate(472.146,-4729.89)" class="On-page reference">
+			
+			<desc>D1</desc>
+			
+			
+			
+			<path d="M0 9815.24 A12.7559 12.7559 0 0 1 25.51 9815.24 A12.7559 12.7559 0 1 1 0 9815.24 Z" class="st9" />
+			<text x="7.15" y="9818.24" class="st5">D1</text>		</g>
+		<g id="shape8424" transform="translate(497.658,-4735.56)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L39.59 9820.91" class="st7" />
+		</g>
+		<g id="shape8425" transform="translate(843.271,-4561.23)" class="On-page reference">
+			
+			<desc>D2</desc>
+			
+			
+			
+			<path d="M0 9815.24 A12.7559 12.7559 0 0 1 25.51 9815.24 A12.7559 12.7559 0 1 1 0 9815.24 Z" class="st9" />
+			<text x="7.15" y="9818.24" class="st5">D2</text>		</g>
+		<g id="shape8426" transform="translate(820.594,-4700.13)" class="Process">
+			
+			<desc>Confirm bottle size is correct</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="5.71" y="9803.74" class="st5">Confirm bottle <tspan x="7.99" dy="1.2em" class="st6">size is correct</tspan></text>		</g>
+		<g id="shape8427" transform="translate(820.594,-4770.43)" class="Process">
+			
+			<desc>Do we need to change?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="5.73" y="9803.74" class="st5">Do we need to <tspan x="18.51" dy="1.2em" class="st6">change?</tspan></text>		</g>
+		<g id="shape8428" transform="translate(948.72,-4770.43)" class="Process">
+			
+			<desc>What changes?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="4.28" y="9809.74" class="st5">What changes?</text>		</g>
+		<g id="shape8429" transform="translate(1085.07,-4770.43)" class="Process">
+			
+			<desc>Generate C.R. – PROCESS F</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="3.72" y="9803.74" class="st5">Generate C.R. – <tspan x="13.69" dy="1.2em" class="st6">PROCESS F</tspan></text>		</g>
+		<g id="shape8430" transform="translate(848.94,-4672.35)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9807.76" class="st7" />
+			<rect x="1.22233" y="9808.11" width="11.7285" height="12.0001" class="st8" />
+			<text x="1.22" y="9817.11" class="st5">No</text>		</g>
+		<g id="shape8431" transform="translate(848.94,-4742.65)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9807.76" class="st7" />
+		</g>
+		<g id="shape8432" transform="translate(891.46,-4784.6)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L49.72 9820.91" class="st7" />
+		</g>
+		<g id="shape8433" transform="translate(1019.59,-4784.6)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L57.94 9820.91" class="st7" />
+		</g>
+		<g id="shape8434" transform="translate(968.279,-4840.72)" class="On-page reference">
+			
+			<desc>D1</desc>
+			
+			
+			
+			<path d="M0 9812.13 A15.874 15.874 0 0 1 31.75 9812.13 A15.874 15.874 0 1 1 0 9812.13 Z" class="st9" />
+			<text x="10.26" y="9815.13" class="st5">D1</text>		</g>
+		<g id="shape8435" transform="translate(1104.63,-4840.72)" class="On-page reference">
+			
+			<desc>D2</desc>
+			
+			
+			
+			<path d="M0 9812.13 A15.874 15.874 0 0 1 31.75 9812.13 A15.874 15.874 0 1 1 0 9812.13 Z" class="st9" />
+			<text x="10.26" y="9815.13" class="st5">D2</text>		</g>
+		<g id="shape8436" transform="translate(820.594,-4840.72)" class="Process">
+			
+			<desc>Client approved to run as-is</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="3.15" y="9803.74" class="st5">Client approved <tspan x="12.88" dy="1.2em" class="st6">to run as</tspan>-is</text>		</g>
+		<g id="shape8437" transform="translate(848.94,-4812.95)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9807.76" class="st7" />
+		</g>
+		<g id="shape8438" transform="translate(977.066,-4812.95)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9807.76" class="st7" />
+		</g>
+		<g id="shape8439" transform="translate(1113.41,-4812.95)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9807.76" class="st7" />
+		</g>
+		<g id="shape8440" transform="translate(848.94,-4586.74)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9792.45" class="st7" />
+		</g>
+		<g id="shape8441" transform="translate(544.783,-4802.17)" class="Process">
+			
+			<desc>Quarantine Previous Label Version</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="12.34" y="9797.74" class="st5">Quarantine <tspan x="6.1" dy="1.2em" class="st6">Previous Label </tspan><tspan x="20" dy="1.2em" class="st6">Version</tspan></text>		</g>
+		<g id="shape8442" transform="translate(682.688,-4802.17)" class="Process">
+			
+			<desc>Generate Label Disposition Notice</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="4.49" y="9797.74" class="st5">Generate Label <tspan x="12.8" dy="1.2em" class="st6">Disposition </tspan><tspan x="22.14" dy="1.2em" class="st6">Notice</tspan></text>		</g>
+		<g id="shape8443" transform="translate(682.688,-4721.39)" class="Process">
+			
+			<desc>Confirm Label Disposition</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="7.2" y="9803.74" class="st5">Confirm Label <tspan x="12.8" dy="1.2em" class="st6">Disposition</tspan></text>		</g>
+		<g id="shape8444" transform="translate(573.129,-4763.91)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9797.27" class="st7" />
+		</g>
+		<g id="shape8445" transform="translate(615.649,-4816.35)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+		</g>
+		<g id="shape8446" transform="translate(711.035,-4802.17)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9858.73" class="st7" />
+		</g>
+		<g id="shape8447" transform="translate(711.035,-4721.39)" class="Dynamic connector">
+			
+			<path d="M7.09 9828 L7.09 9869.5" class="st7" />
+		</g>
+		<g id="shape8448" transform="translate(410.433,-1135.38)" class="Start/End">
+			
+			<desc>From Client</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="11.88" y="9816.83" class="st5">From Client</text>		</g>
+		<g id="shape8449" transform="translate(414.26,-1340.26)">
+			
+			<desc>Change request process</desc>
+			
+			
+			<rect x="0" y="9771.31" width="1260.28" height="56.6929" class="st1" />
+			<text x="4" y="9806.85" class="st2">Change request process</text>		</g>
+		<g id="shape8450" transform="translate(555.283,-1043.82)" class="Process">
+			
+			<desc>Is this a CSM issue only?</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="9.79" y="9803.74" class="st5">Is this a CSM <tspan x="13.14" dy="1.2em" class="st6">issue only?</tspan></text>		</g>
+		<g id="shape8451" transform="translate(626.149,-1058)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+			<rect x="27.6554" y="9814.91" width="11.7285" height="12.0001" class="st8" />
+			<text x="27.66" y="9823.91" class="st5">No</text>		</g>
+		<g id="shape8452" transform="translate(693.188,-1043.82)" class="Process">
+			
+			<desc>Put Batch on Hold</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="9.49" y="9803.74" class="st5">Put Batch on <tspan x="25.91" dy="1.2em" class="st6">Hold</tspan></text>		</g>
+		<g id="shape8453" transform="translate(764.054,-1058)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L59.5 9820.91" class="st7" />
+		</g>
+		<g id="shape8454" transform="translate(831.094,-1043.82)" class="Process">
+			
+			<desc>Open Requote ticket</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="5.99" y="9803.74" class="st5">Open Requote <tspan x="24.06" dy="1.2em" class="st6">ticket</tspan></text>		</g>
+		<g id="shape8455" transform="translate(901.96,-1072.17)" class="Dynamic connector">
+			
+			<path d="M0 9835.09 L49.72 9835.09" class="st7" />
+		</g>
+		<g id="shape8456" transform="translate(959.22,-1043.82)" class="Process">
+			
+			<desc>From R&amp;D/PD</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="6.84" y="9809.74" class="st5">From R&amp;D/PD</text>		</g>
+		<g id="shape8457" transform="translate(1030.09,-1058)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L49.72 9820.91" class="st7" />
+		</g>
+		<g id="shape8458" transform="translate(1087.35,-1043.82)" class="Process">
+			
+			<desc>Update Facts Panel</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="8.85" y="9803.74" class="st5">Update Facts <tspan x="24.19" dy="1.2em" class="st6">Panel</tspan></text>		</g>
+		<g id="shape8459" transform="translate(1339.35,-1043.82)" class="Process">
+			
+			<desc>Generate new docs for client to sign</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="6.56" y="9797.74" class="st5">Generate new <tspan x="6.73" dy="1.2em" class="st6">docs for client </tspan><tspan x="21.91" dy="1.2em" class="st6">to sign</tspan></text>		</g>
+		<g id="shape8460" transform="translate(1410.21,-1058)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L49.72 9820.91" class="st7" />
+		</g>
+		<g id="shape8461" transform="translate(1467.47,-1043.82)" class="Process">
+			
+			<desc>Did Client sign rev. docs??</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="6.49" y="9803.74" class="st5">Did Client sign <tspan x="12.58" dy="1.2em" class="st6">rev. docs??</tspan></text>		</g>
+		<g id="shape8462" transform="translate(1538.34,-1058)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M0 9820.91 L49.72 9820.91" class="st7" />
+			<rect x="21.75" y="9814.91" width="13.7598" height="12.0001" class="st8" />
+			<text x="21.75" y="9823.91" class="st5">Yes</text>		</g>
+		<g id="shape8463" transform="translate(1595.6,-1043.82)" class="Process">
+			
+			<desc>Open Change Request</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="8.09" y="9803.74" class="st5">Open Change <tspan x="18.86" dy="1.2em" class="st6">Request</tspan></text>		</g>
+		<g id="shape8464" transform="translate(1666.46,-1058)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L49.72 9820.91" class="st7" />
+		</g>
+		<g id="shape8465" transform="translate(1723.72,-1050.91)" class="Start/End">
+			
+			<desc>Remove Batch Hold</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="6.19" y="9810.83" class="st5">Remove Batch <tspan x="25.91" dy="1.2em" class="st6">Hold</tspan></text>		</g>
+		<g id="shape8466" transform="translate(410.433,-1092.86)" class="Start/End">
+			
+			<desc>From Regulatory</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="24.76" y="9810.83" class="st5">From <tspan x="13.39" dy="1.2em" class="st6">Regulatory</tspan></text>		</g>
+		<g id="shape8467" transform="translate(410.433,-1050.34)" class="Start/End">
+			
+			<desc>From Sales</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="13.35" y="9816.83" class="st5">From Sales</text>		</g>
+		<g id="shape8468" transform="translate(410.433,-1007.82)" class="Start/End">
+			
+			<desc>From R&amp;D/PD</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="6.84" y="9816.83" class="st5">From R&amp;D/PD</text>		</g>
+		<g id="shape8469" transform="translate(410.433,-965.304)" class="Start/End">
+			
+			<desc>From Purchasing</desc>
+			
+			
+			
+			
+			<path d="M14.17 9828 L56.69 9828 A14.1732 14.1732 -180 0 0 56.69 9799.65 L14.17 9799.65 A14.1732 14.1732 -180 1 0 14.17        9828 Z" class="st9" />
+			<text x="24.76" y="9810.83" class="st5">From <tspan x="13.26" dy="1.2em" class="st6">Purchasing</tspan></text>		</g>
+		<g id="shape8470" transform="translate(481.299,-1057.71)" class="Dynamic connector">
+			
+			<path d="M0 9821.2 L13.57 9821.2 L13.57 9820.63 L66.44 9820.63" class="st7" />
+		</g>
+		<g id="shape8471" transform="translate(481.299,-1022)" class="Dynamic connector">
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9784.91 L66.44 9784.91" class="st7" />
+		</g>
+		<g id="shape8472" transform="translate(481.299,-979.477)" class="Dynamic connector">
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9742.39 L66.44 9742.39" class="st7" />
+		</g>
+		<g id="shape8473" transform="translate(555.283,-1121.21)" class="Subprocess">
+			
+			<desc>CSM/Label Process</desc>
+			
+			
+			
+			
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828 Z" class="st18" />
+			<path d="M0 9828 L70.87 9828 L70.87 9785.48 L0 9785.48 L0 9828" class="st19" />
+			<path d="M8.5 9828 L8.5 9793.02" class="st7" />
+			<path d="M62.36 9828 L62.36 9793.02" class="st7" />
+			<text x="13.5" y="9803.74" class="st5">CSM/Label <tspan x="19.96" dy="1.2em" class="st6">Process</tspan></text>		</g>
+		<g id="shape8474" transform="translate(583.629,-1086.34)" class="Dynamic connector">
+			
+			<desc>Yes</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9800.67" class="st7" />
+			<rect x="0.20664" y="9804.57" width="13.7598" height="12.0001" class="st8" />
+			<text x="0.21" y="9813.57" class="st5">Yes</text>		</g>
+		<g id="shape8475" transform="translate(1467.47,-965.446)" class="Process">
+			
+			<desc>Hold. Follow up every 2 days</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="3.69" y="9803.74" class="st5">Hold. Follow up <tspan x="10.16" dy="1.2em" class="st6">every 2 days</tspan></text>		</g>
+		<g id="shape8476" transform="translate(1495.82,-1043.82)" class="Dynamic connector">
+			
+			<desc>No</desc>
+			
+			
+			<path d="M7.09 9828 L7.09 9856.32" class="st7" />
+			<rect x="1.22233" y="9839.93" width="11.7285" height="12.0001" class="st8" />
+			<text x="1.22" y="9848.93" class="st5">No</text>		</g>
+		<g id="shape8477" transform="translate(410.433,-808.973)">
+			
+			<desc>**The Change Control Process can happen at any point during O...</desc>
+			
+			
+			<rect x="0" y="9799.65" width="542.693" height="28.3465" class="st1" />
+			<text x="4" y="9817.43" class="st22">**The Change Control Process can happen at any point during Order Procss or Batch Monitoring Process</text>		</g>
+		<g id="shape8478" transform="translate(481.299,-1107.04)" class="Dynamic connector">
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9869.95 L66.44 9869.95" class="st7" />
+		</g>
+		<g id="shape8479" transform="translate(481.299,-1149.56)" class="Dynamic connector">
+			
+			<path d="M0 9828 L13.57 9828 L13.57 9912.47 L66.44 9912.47" class="st7" />
+		</g>
+		<g id="shape8480" transform="translate(1158.21,-1058)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L45.47 9820.91" class="st7" />
+		</g>
+		<g id="shape8481" transform="translate(1211.22,-1043.82)" class="Process">
+			
+			<desc>Re-quote and Cost if Necessary</desc>
+			
+			
+			
+			
+			<rect x="0" y="9785.48" width="70.8661" height="42.5197" class="st3" />
+			<text x="7.87" y="9797.74" class="st5">Re-quote and <tspan x="22.7" dy="1.2em" class="st6">Cost if </tspan><tspan x="14.8" dy="1.2em" class="st6">Necessary</tspan></text>		</g>
+		<g id="shape8482" transform="translate(1282.09,-1058)" class="Dynamic connector">
+			
+			<path d="M0 9820.91 L49.72 9820.91" class="st7" />
+		</g>
+	</g>
+</svg>
+    </div>
+    
+    <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+            <filter id="hover">
+                <feMorphology result="offset" in="SourceGraphic" operator="dilate" radius="5"></feMorphology>
+                <feColorMatrix result="drop" in="offset" type="matrix" values="1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0.3 0"></feColorMatrix>
+                <feBlend in="SourceGraphic" in2="drop" mode="normal"></feBlend>
+            </filter>
+
+            <filter id="select">
+                <feMorphology result="offset" in="SourceGraphic" operator="dilate" radius="5"></feMorphology>
+                <feColorMatrix result="drop" in="offset" type="matrix" values="1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0.9 0"></feColorMatrix>
+                <feBlend in="SourceGraphic" in2="drop" mode="normal"></feBlend>
+            </filter>
+            <filter id="hyperlink">
+                <feMorphology result="offset" in="SourceGraphic" operator="dilate" radius="5"></feMorphology>
+                <feColorMatrix result="drop" in="offset" type="matrix" values="0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0.3 0"></feColorMatrix>
+                <feBlend in="SourceGraphic" in2="drop" mode="normal"></feBlend>
+            </filter>
+        </defs>
+    </svg>
+    
+</body>
+</html>
